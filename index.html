@@ -1,0 +1,2295 @@
+<!DOCTYPE html>
+<html lang="bn" data-lang="bn" data-theme="day" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="google-site-verification" content="-_4r3AiNZe5eh6ltQaW7O3cBS6MSLSzo0roKgPDg4R0" />
+
+  <!-- ==================== GOOGLE SCHOLAR & ACADEMIC CITATION META TAGS ==================== -->
+  <meta name="citation_title" content="Prevention is the Best Cure: A Complete Health &amp; Longevity Guide in the Light of the Quran, Sunnah, and Modern Science" />
+  <meta name="citation_author" content="Raju, Md. Mostafa Kamal" />
+  <meta name="citation_author_institution" content="Department of English, Dinajpur Govt. College, Dinajpur, Bangladesh" />
+  <meta name="citation_author_orcid" content="0009-0005-8100-7558" />
+  <meta name="citation_publication_date" content="2026/10/17" />
+  <meta name="citation_journal_title" content="International Journal of Integrative &amp; Preventive Medicine Monograph" />
+  <meta name="citation_doi" content="10.5281/zenodo.23438665" />
+  <meta name="citation_public_url" content="https://perfectlifestyle24.blogspot.com/" />
+  <meta name="citation_pdf_url" content="https://archive.org/download/perfect-lifestyle-24/Pratirodh_Sarvottam_Chikitsa_Preventive_Health_Monograph-v2_3.pdf" />
+  <meta name="citation_keywords" content="Tibb-an-Nabawi; Preventive Medicine; Lifestyle Medicine; Caloric Restriction; Autophagy; Circadian Biology; Gut Microbiome; Psycho-Neuro-Immunology; Nutraceuticals" />
+
+  <!-- ==================== SOCIAL MEDIA & WHATSAPP PREVIEW TAGS ==================== -->
+  <meta property="og:title" content="Prevention is the Best Cure | 21-Page Bilingual E-Book Monograph" />
+  <meta property="og:description" content="A Comprehensive Bilingual Research Monograph &amp; Interactive Web-App by Md. Mostafa Kamal Raju (DOI: 10.5281/zenodo.23438665)." />
+  <meta property="og:url" content="https://perfectlifestyle24.blogspot.com/" />
+  <meta property="og:type" content="article" />
+
+  <!-- ==================== MOBILE WEB APP & CAPACITOR APK VIEWPORT ==================== -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="প্রতিরোধই সর্বোত্তম চিকিৎসা - গবেষণা মনোগ্রাফ" />
+  <meta name="theme-color" content="#0d2b20" />
+
+  <title>প্রতিরোধই সর্বোত্তম চিকিৎসা | Prevention is the Best Cure — Research Monograph</title>
+
+  <!-- App Icons & Standalone PWA Manifest -->
+  <link rel="icon" type="image/svg+xml" href="icon.svg" />
+  <link rel="apple-touch-icon" href="icon.svg" />
+  <link rel="manifest" href="manifest.json" />
+
+  <!-- Instant Theme & Language Pre-Loader (Prevents Flash of Unstyled Theme) -->
+  <script type="text/javascript">
+    (function() {
+      var htmlEl = document.documentElement;
+      try {
+        var savedLang = localStorage.getItem('pl24_monograph_lang');
+        var savedTheme = localStorage.getItem('pl24_monograph_theme');
+        if (savedLang === 'en' || savedLang === 'bn') htmlEl.setAttribute('data-lang', savedLang);
+        if (savedTheme === 'night' || savedTheme === 'day') htmlEl.setAttribute('data-theme', savedTheme);
+      } catch(e) {}
+    })();
+  </script>
+
+  <!-- Google Fonts: Noto Serif/Sans Bengali & Merriweather/Inter for English -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Merriweather:ital,wght@0,400;0,700;1,400&amp;family=Noto+Sans+Bengali:wght@400;500;600;700&amp;family=Noto+Serif+Bengali:wght@400;600;700&amp;display=swap" rel="stylesheet" />
+
+  <!-- 1. External Stylesheet (style.css) -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ==================== FIXED STICKY TOP BAR WITH INSTALL, LANGUAGE & NIGHT MODE SWITCHES ==================== -->
+  <div class='sticky-journal-topbar'>
+    <div class='topbar-inner'>
+      <span class='journal-badge'>
+        <span class='lang-bn'>Integrative &amp; <br/> Preventive Medicine <br/> &#8226; গবেষণা মনোগ্রাফ</span>
+        <span class='lang-en'>Integrative &amp; <br/> Preventive Medicine <br/> &#8226; Research Monograph</span>
+      </span>
+
+      <div class='topbar-controls'>
+        <!-- 1. Install Web-App / Download APK Button (Single Instance) -->
+        <button aria-label='Install or Download App' class='install-app-btn' id='btn-install-app' onclick='triggerAppInstallation()' title='Install Offline App / Download APK' type='button'>
+          <span>📲</span>
+          <span class='lang-bn'>অ্যাপ ইনস্টল</span>
+          <span class='lang-en'>Install App</span>
+        </button>
+
+        <!-- 2. Language Switcher Pill (Single Instance) -->
+        <div aria-label='Switch Language' class='control-pill' onclick='toggleJournalLanguage()' role='button' title='Switch Language (Bangla / English)'>
+          <span class='pill-option active' id='btn-lang-bn'>বাংলা</span>
+          <span class='pill-option' id='btn-lang-en'>EN</span>
+        </div>
+
+        <!-- 3. Day / Night Theme Toggle Button (Single Instance) -->
+        <button aria-label='Toggle Day or Night Mode' class='theme-toggle-btn' id='btn-theme-toggle' onclick='toggleJournalTheme()' type='button'>
+          <span id='theme-icon'>🌙</span>
+          <span id='theme-label'>Night</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ==================== STATIC JOURNAL HEADER ==================== -->
+  <header class='webapp-header'>
+    <h1 class='cover-title'>
+      <span class='lang-bn'>প্রতিরোধই সর্বোত্তম চিকিৎসা: কুরআন, সুন্নাহ ও আধুনিক বিজ্ঞানের আলোকে পূর্ণাঙ্গ স্বাস্থ্য নির্দেশিকা</span>
+      <span class='lang-en'>Prevention is the Best Cure: A Complete Health &amp; Longevity Guide in the Light of the Qur&#39;an, Sunnah, and Modern Science</span>
+    </h1>
+    <div class='cover-subtitle'>
+      <span>A Comprehensive Monograph on Preventive Medicine: <br/> By - MD. MOSTAFA KAMAL RAJU</span>
+      <p style='margin-top: 10px;'>
+        <a href='https://doi.org/10.5281/zenodo.23438665' style='display: inline-block; background-color: rgba(197, 155, 39, 0.18); border: 1px solid var(--accent-gold); color: var(--accent-gold-light); padding: 4px 12px; border-radius: 20px; text-decoration: none; font-weight: 700; font-size: 8.5pt; margin: 2px;' target='_blank'>
+          🌐 DOI iD: 10.5281/zenodo.23438665 (Zenodo / CERN)
+        </a>
+        <br/>
+        <a href='https://orcid.org/0009-0005-8100-7558' style='display: inline-block; background-color: rgba(191, 212, 202, 0.15); border: 1px solid #bfd4ca; color: #bfd4ca; padding: 4px 12px; border-radius: 20px; text-decoration: none; font-weight: 700; font-size: 8.5pt; margin: 2px;' target='_blank'>
+          👤 ORCID iD: 0009-0005-8100-7558
+        </a>
+      </p>
+      <span>Department of English, Dinajpur Govt. College</span>
+    </div>
+    <div class='header-action-wrap'>
+      <a class='header-pdf-btn' href='#' onclick='window.print(); return false;'>
+        <span class='lang-bn'>📥 পিডিএফ ডাউনলোড / প্রিন্ট করুন</span>
+        <span class='lang-en'>📥 Download PDF / Print Monograph</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- ==================== MAIN WEB APP CONTENT AREA (21 PAGES) ==================== -->
+  <main class='webapp-container' id='monograph-main-content'>
+
+    <!-- ==================== PAGE 1 / 21 (CORRESPONDS TO PDF PAGE 2: CORE PARADIGM & ABSTRACT) ==================== -->
+    <article class='monograph-page-card' id='page-1'>
+      <div class='page-card-topbar'>
+        <span>
+          <span class='lang-bn'>প্রতিরোধই সর্বোত্তম চিকিৎসা | TIBB-AN-NABAWI &amp; MODERN SCIENCE</span>
+          <span class='lang-en'>PREVENTION IS THE BEST CURE | TIBB-AN-NABAWI &amp; MODERN SCIENCE</span>
+        </span>
+        <span class='page-number-badge'>
+          <span class='lang-bn'>পৃষ্ঠা ১ / ২১</span>
+          <span class='lang-en'>Page 1 / 21</span>
+        </span>
+      </div>
+
+      <h2 class='section-heading'>
+        <span class='lang-bn'>প্রতিরোধই সর্বোত্তম চিকিৎসা: কুরআন, সুন্নাহ ও আধুনিক বিজ্ঞানের আলোকে পূর্ণাঙ্গ স্বাস্থ্য নির্দেশিকা</span>
+        <span class='lang-en'>Prevention is the Best Cure: A Complete Health Guide in the Light of the Qur&#39;an, Sunnah, and Modern Science</span>
+      </h2>
+      <div class='section-subheading'>
+        A COMPREHENSIVE MONOGRAPH ON PREVENTIVE MEDICINE: INTEGRATING PROPHETIC TRADITION (TIBB-AN-NABAWI) AND MODERN BIOMEDICAL SCIENCE
+      </div>
+
+      <div class='grid-3-col'>
+        <div class='grid-box'>
+          <div class='grid-box-title'>
+            <span class='lang-bn'>মূল প্রতিপাদ্য (CORE PARADIGM)</span>
+            <span class='lang-en'>CORE PARADIGM</span>
+          </div>
+          <p class='grid-box-desc'>
+            <span class='lang-bn'>প্রতিকারের চেয়ে প্রতিরোধই উত্তম<br/>(Prevention is Better than Cure)</span>
+            <span class='lang-en'>Prevention is Better than Cure<br/>(Proactive Cellular &amp; Systemic Protection)</span>
+          </p>
+        </div>
+
+        <div class='grid-box'>
+          <div class='grid-box-title'>
+            <span class='lang-bn'>গবেষণা ক্ষেত্র (RESEARCH DOMAIN)</span>
+            <span class='lang-en'>RESEARCH DOMAIN</span>
+          </div>
+          <p class='grid-box-desc'>
+            <span class='lang-bn'>মেটাবলিক হেলথ, এপিজেনেটিক্স, অটোফ্যাজি, সার্কাডিয়ান রিদম ও নিউরো-ইমিউনোলজি</span>
+            <span class='lang-en'>Metabolic Health, Epigenetics, Autophagy, Circadian Rhythm &amp; Neuro-Immunology</span>
+          </p>
+        </div>
+
+        <div class='grid-box'>
+          <div class='grid-box-title'>
+            <span class='lang-bn'>রেফারেন্স স্ট্যান্ডার্ড (CITATION STANDARD)</span>
+            <span class='lang-en'>CITATION STANDARD</span>
+          </div>
+          <p class='grid-box-desc'>
+            <span class='lang-bn'>আল-কুরআন, সিহাহ সিত্তাহ (সহীহ হাদিস) এবং পিয়ার-রিভিউড বায়োমেডিকেল গবেষণা</span>
+            <span class='lang-en'>Al-Qur&#39;an, Sihah Sittah (Authentic Hadith) &amp; Peer-Reviewed Biomedical Research</span>
+          </p>
+        </div>
+      </div>
+
+      <div class='abstract-box'>
+        <h3 class='abstract-title'>
+          <span class='lang-bn'>সারসংক্ষেপ ও তাত্ত্বিক প্রেক্ষাপট (EXECUTIVE SUMMARY &amp; ABSTRACT)</span>
+          <span class='lang-en'>EXECUTIVE SUMMARY &amp; ABSTRACT</span>
+        </h3>
+        
+        <p class='lang-bn' style='margin: 0; text-align: justify;'>
+          আধুনিক চিকিৎসা বিজ্ঞান আজ যে &quot;প্রিভেন্টিভ মেডিসিন&quot; (Preventive Medicine) বা &quot;লাইফস্টাইল মেডিসিন&quot; (Lifestyle Medicine)-এর ওপর সর্বোচ্চ গুরুত্বারোপ করছে, ইসলাম আজ থেকে ১৪০০ বছর পূর্বেই তার পূর্ণাঙ্গ ও বিজ্ঞানসম্মত ভিত্তি স্থাপন করেছে। বর্তমান বিশ্বে অসংক্রামক ব্যাধি (Non-Communicable Diseases—যেমন: টাইপ-২ ডায়াবেটিস, কার্ডিওভাসকুলার ডিজিজ, ফ্যাটি লিভার, অটোইমিউন ডিসঅর্ডার এবং ক্যান্সার) মহামারী আকার ধারণ করেছে। এই মনোগ্রাফটির মূল দর্শন হলো—রোগাক্রান্ত হওয়ার পর ফার্মাসিউটিক্যাল ড্রাগের ওপর নির্ভরশীল হওয়ার চেয়ে, মানবদেহের অভ্যন্তরীণ জৈবিক ঘড়ি (Circadian Rhythm), কোষীয় পুনর্গঠন (Autophagy), পরিপাকতন্ত্রের মাইক্রোবায়োম (Gut Microbiome) এবং সাইকো-নিউরো-ইমিউনোলজিক্যাল ভারসাম্য রক্ষা করা। পবিত্র কুরআন ও সহীহ সুন্নাহর প্রতিটি স্বাস্থ্যবিধি কীভাবে আধুনিক মলিকুলার বায়োলজি ও ক্লিনিক্যাল মেডিসিনের মানদণ্ডে উত্তীর্ণ, তার একটি সুশৃঙ্খল ও প্রামাণ্য দলিল হিসেবে এই গবেষণাপত্রটি সংকলিত হয়েছে।
+        </p>
+
+        <p class='lang-en' style='margin: 0; text-align: justify;'>
+          Modern medical science today places supreme emphasis on &quot;Preventive Medicine&quot; and &quot;Lifestyle Medicine&quot;—a comprehensive, evidence-based foundation that Islam established over 1,400 years ago. In the contemporary world, Non-Communicable Diseases (NCDs—such as Type-2 Diabetes, Cardiovascular Disease, Non-Alcoholic Fatty Liver Disease, Autoimmune Disorders, and Cancer) have reached pandemic proportions. The core philosophy of this monograph is that rather than becoming dependent on pharmaceutical drugs after disease manifestation, human health must be preserved by regulating the internal biological clock (Circadian Rhythm), cellular regeneration (Autophagy), the intestinal microbiome (Gut Microbiome), and Psycho-Neuro-Immunological balance. This monograph has been compiled as a systematic, authoritative document demonstrating how every health directive of the Holy Qur&#39;an and authentic Sunnah excels under the rigorous standards of modern molecular biology and clinical medicine.
+        </p>
+
+        <div class='keywords-bar'>
+          <strong class='lang-bn'>সূচক শব্দ (Keywords): </strong>
+          <strong class='lang-en'>Keywords: </strong>
+          <em>Tibb-an-Nabawi, Preventive Medicine, Caloric Restriction, Autophagy, Circadian Biology, Gut Microbiome, Psycho-Neuro-Immunology, Nutraceuticals.</em>
+        </div>
+      </div>
+
+      <div class='page-card-footer'>
+        <span>Tibb-an-Nabawi &amp; Modern Biomedical Science Monograph</span>
+        <span>
+          <span class='lang-bn'>- পৃষ্ঠা ১ / ২১ -</span>
+          <span class='lang-en'>- Page 1 / 21 -</span>
+        </span>
+      </div>
+    </article>
+
+    <!-- ==================== PAGE 2 / 21 (CORRESPONDS TO PDF PAGE 3: TOC & SECTION 1 INTRO) ==================== -->
+    <article class='monograph-page-card' id='page-2'>
+      <div class='page-card-topbar'>
+        <span>
+          <span class='lang-bn'>প্রতিরোধই সর্বোত্তম চিকিৎসা | TIBB-AN-NABAWI &amp; MODERN SCIENCE</span>
+          <span class='lang-en'>PREVENTION IS THE BEST CURE | TIBB-AN-NABAWI &amp; MODERN SCIENCE</span>
+        </span>
+        <span class='page-number-badge'>
+          <span class='lang-bn'>পৃষ্ঠা ২ / ২১</span>
+          <span class='lang-en'>Page 2 / 21</span>
+        </span>
+      </div>
+
+                  <!-- Table of Contents Box (Links target exact topic IDs #sec-1 to #sec-11 with Exact Page Numbers) -->
+      <div class='toc-box' id='monograph-toc'>
+        
+        <h3 class='toc-heading'>
+          <span class='lang-bn'>সূচিপত্র ও অধ্যায় বিন্যাস (MONOGRAPH CONTENTS — যেকোনো অধ্যায়ে ক্লিক করুন)</span>
+          <span class='lang-en'>MONOGRAPH CONTENTS &amp; STRUCTURE (Click Any Topic to Jump Directly)</span>
+        </h3>
+        <ul class='toc-list'>
+          <li>
+            <span class='toc-num'>01.</span>
+            <a class='toc-link' href='#sec-1'>
+              <span class='lang-bn'>মূল দর্শন ও তাত্ত্বিক ভিত্তি (Core Ideology &amp; Theoretical Framework)</span>
+              <span class='lang-en'>Core Ideology &amp; Theoretical Framework of Islamic Preventive Medicine</span>
+            </a>
+            <span class='toc-page'>
+              <span class='lang-bn'>পৃষ্ঠা ০২–০৩</span>
+              <span class='lang-en'>Pages 02–03</span>
+            </span>
+          </li>
+          <li>
+            <span class='toc-num'>02.</span>
+            <a class='toc-link' href='#sec-2'>
+              <span class='lang-bn'>পরিপাকতন্ত্রের স্বাস্থ্য ও মেটাবলিক রেগুলেশন (Gastrointestinal Health &amp; Metabolic Regulation)</span>
+              <span class='lang-en'>Gastrointestinal Health, Caloric Restriction &amp; Metabolic Regulation</span>
+            </a>
+            <span class='toc-page'>
+              <span class='lang-bn'>পৃষ্ঠা ০৩–০৬</span>
+              <span class='lang-en'>Pages 03–06</span>
+            </span>
+          </li>
+          <li>
+            <span class='toc-num'>03.</span>
+            <a class='toc-link' href='#sec-3'>
+              <span class='lang-bn'>কোষীয় পুনর্গঠন, অটোফ্যাজি ও সুন্নাহ রোজা (Cellular Regeneration, Autophagy &amp; Fasting)</span>
+              <span class='lang-en'>Cellular Regeneration, Autophagy &amp; Prophetic Intermittent Fasting</span>
+            </a>
+            <span class='toc-page'>
+              <span class='lang-bn'>পৃষ্ঠা ০৭–০৮</span>
+              <span class='lang-en'>Pages 07–08</span>
+            </span>
+          </li>
+          <li>
+            <span class='toc-num'>04.</span>
+            <a class='toc-link' href='#sec-4'>
+              <span class='lang-bn'>সার্কাডিয়ান রিদম ও ঘুমের নিউরোবায়োলজি (Circadian Biology &amp; Sleep Architecture)</span>
+              <span class='lang-en'>Circadian Biology, Pineal Gland Regulation &amp; Sleep Architecture</span>
+            </a>
+            <span class='toc-page'>
+              <span class='lang-bn'>পৃষ্ঠা ০৮–০৯</span>
+              <span class='lang-en'>Pages 08–09</span>
+            </span>
+          </li>
+          <li>
+            <span class='toc-num'>05.</span>
+            <a class='toc-link' href='#sec-5'>
+              <span class='lang-bn'>শারীরিক সক্ষমতা, বায়োমেকানিক্স ও সালাত (Physical Vitality, Biomechanics &amp; Salah)</span>
+              <span class='lang-en'>Physical Vitality, Biomechanics &amp; Musculoskeletal Health (Salah)</span>
+            </a>
+            <span class='toc-page'>
+              <span class='lang-bn'>পৃষ্ঠা ০৯–১১</span>
+              <span class='lang-en'>Pages 09–11</span>
+            </span>
+          </li>
+          <li>
+            <span class='toc-num'>06.</span>
+            <a class='toc-link' href='#sec-6'>
+              <span class='lang-bn'>প্রিভেন্টিভ হাইজিন, ফিতরাত ও মাইক্রোবায়োম (Preventive Hygiene &amp; Mucosal Immunology)</span>
+              <span class='lang-en'>Preventive Hygiene, Fitrah &amp; Mucosal Immunology</span>
+            </a>
+            <span class='toc-page'>
+              <span class='lang-bn'>পৃষ্ঠা ১১–১২</span>
+              <span class='lang-en'>Pages 11–12</span>
+            </span>
+          </li>
+          <li>
+            <span class='toc-num'>07.</span>
+            <a class='toc-link' href='#sec-7'>
+              <span class='lang-bn'>সাইকো-নিউরো-ইমিউনোলজি ও মানসিক প্রশান্তি (Psycho-Neuro-Immunology &amp; Mental Peace)</span>
+              <span class='lang-en'>Psycho-Neuro-Immunology (PNI), Vagus Nerve &amp; Mental Peace</span>
+            </a>
+            <span class='toc-page'>
+              <span class='lang-bn'>পৃষ্ঠা ১৩–১৪</span>
+              <span class='lang-en'>Pages 13–14</span>
+            </span>
+          </li>
+          <li>
+            <span class='toc-num'>08.</span>
+            <a class='toc-link' href='#sec-8'>
+              <span class='lang-bn'>প্রফেটিক সুপারফুডস ও প্রাকৃতিক ফার্মাকোলজি (Prophetic Nutraceuticals &amp; Pharmacology)</span>
+              <span class='lang-en'>Prophetic Superfoods, Phytochemicals &amp; Clinical Pharmacology</span>
+            </a>
+            <span class='toc-page'>
+              <span class='lang-bn'>পৃষ্ঠা ১৪–১৫</span>
+              <span class='lang-en'>Pages 14–15</span>
+            </span>
+          </li>
+          <li>
+            <span class='toc-num'>09.</span>
+            <a class='toc-link' href='#sec-9'>
+              <span class='lang-bn'>আজীবন সুস্থতার জন্য ২৪ ঘণ্টার ব্যবহারিক রুটিন (24-Hour Daily Preventive Protocol)</span>
+              <span class='lang-en'>The Ultimate 24-Hour Daily Preventive &amp; Longevity Protocol</span>
+            </a>
+            <span class='toc-page'>
+              <span class='lang-bn'>পৃষ্ঠা ১৬–১৮</span>
+              <span class='lang-en'>Pages 16–18</span>
+            </span>
+          </li>
+          <li>
+            <span class='toc-num'>10.</span>
+            <a class='toc-link' href='#sec-10'>
+              <span class='lang-bn'>কঠোরভাবে বর্জনীয় তালিকা: নীরব ঘাতকসমূহ (Strict Avoidance List for Disease Prevention)</span>
+              <span class='lang-en'>The Strict Avoidance List: Top 5 Silent Metabolic Killers</span>
+            </a>
+            <span class='toc-page'>
+              <span class='lang-bn'>পৃষ্ঠা ১৮–১৯</span>
+              <span class='lang-en'>Pages 18–19</span>
+            </span>
+          </li>
+          <li>
+            <span class='toc-num'>11.</span>
+            <a class='toc-link' href='#sec-11'>
+              <span class='lang-bn'>ক্লিনিক্যাল ইনফোগ্রাফিক ও সেলফ-অ্যাসেসমেন্ট ড্যাশবোর্ড (Bio-Rhythm Visualizer &amp; Health Score)</span>
+              <span class='lang-en'>Clinical Infographics, Bio-Rhythm Visualizer &amp; Self-Assessment Dashboard</span>
+            </a>
+            <span class='toc-page'>
+              <span class='lang-bn'>পৃষ্ঠা ১৯–২১</span>
+              <span class='lang-en'>Pages 19–21</span>
+            </span>
+          </li>
+        </ul>
+      </div>
+
+           
+
+      <!-- Exact Topic Anchor #sec-1 -->
+      <h2 class='section-heading' id='sec-1'>
+        <span class='lang-bn'>১. মূল দর্শন ও তাত্ত্বিক ভিত্তি</span>
+        <span class='lang-en'>1. Core Ideology &amp; Theoretical Framework</span>
+      </h2>
+      <div class='section-subheading'>
+        CORE IDEOLOGY &amp; THEORETICAL FRAMEWORK OF ISLAMIC PREVENTIVE MEDICINE
+      </div>
+
+      <p class='lang-bn' style='text-align: justify; margin-bottom: 0;'>
+        ইসলামী জীবনদর্শনে স্বাস্থ্য কেবল রোগমুক্ত থাকার নাম নয়; বরং এটি শারীরিক, মানসিক, সামাজিক ও আত্মিক সুস্থতার এক সমন্বিত রূপ। এই দর্শনের মূল ভিত্তি হলো—রোগ হওয়ার পর ওষুধ খাওয়ার চেয়ে, শরীরকে এমনভাবে পরিচালনা করা যাতে রোগের জীবাণু বা মেটাবলিক বিশৃঙ্খলা শরীরে দানা বাঁধতেই না পারে।
+      </p>
+      <p class='lang-en' style='text-align: justify; margin-bottom: 0;'>
+        In the Islamic worldview, health is not merely the absence of disease; rather, it is a holistic integration of physical, mental, social, and spiritual well-being. The foundational principle of this philosophy is to govern the body in such a way that pathogens or metabolic disorders cannot take root in the first place, rather than relying on medication after illness strikes.
+      </p>
+
+      <div class='page-card-footer'>
+        <span>Tibb-an-Nabawi &amp; Modern Biomedical Science Monograph</span>
+        <span>
+          <span class='lang-bn'>- পৃষ্ঠা ২ / ২১ -</span>
+          <span class='lang-en'>- Page 2 / 21 -</span>
+        </span>
+      </div>
+    </article>
+
+    <!-- ==================== PAGE 3 / 21 (CORRESPONDS TO PDF PAGE 4: SECTION 1 DETAILS & SECTION 2 INTRO) ==================== -->
+    <article class='monograph-page-card' id='page-3'>
+      <div class='page-card-topbar'>
+        <span>
+          <span class='lang-bn'>প্রতিরোধই সর্বোত্তম চিকিৎসা | TIBB-AN-NABAWI &amp; MODERN SCIENCE</span>
+          <span class='lang-en'>PREVENTION IS THE BEST CURE | TIBB-AN-NABAWI &amp; MODERN SCIENCE</span>
+        </span>
+        <span class='page-number-badge'>
+          <span class='lang-bn'>পৃষ্ঠা ৩ / ২১</span>
+          <span class='lang-en'>Page 3 / 21</span>
+        </span>
+      </div>
+
+      <ul class='monograph-list'>
+        <li>
+          <span class='lang-bn'>
+            <strong>আমানত হিসেবে মানবদেহ (The Human Body as a Sacred Trust):</strong> ইসলামী আইনশাস্ত্র (মাকাসিদ আশ-শরীয়াহ) অনুযায়ী জীবন ও স্বাস্থ্য রক্ষা করা অন্যতম প্রধান ফরজ। মানুষের শরীর তার নিজের স্বেচ্ছাচারী সম্পত্তি নয়, বরং মহান স্রষ্টার দেওয়া এক মহামূল্যবান আমানত। অস্বাস্থ্যকর খাদ্যাভ্যাস, মাদক গ্রহণ বা রাত্রিজাগরণের মাধ্যমে এই আমানতের খেয়ানত করা ইসলামে কঠোরভাবে নিষিদ্ধ।
+          </span>
+          <span class='lang-en'>
+            <strong>The Human Body as a Sacred Trust (Amanah):</strong> According to Islamic jurisprudence (<em>Maqasid al-Shariah</em>), preserving life and health is one of the primary obligatory duties (<em>Fard</em>). The human body is not one&#39;s arbitrary personal property, but a precious trust (<em>Amanah</em>) bestowed by the Almighty Creator. Betraying this trust through unhealthy diets, substance abuse, or chronic sleep deprivation is strictly prohibited in Islam.
+          </span>
+        </li>
+
+        <li>
+          <span class='lang-bn'>
+            <strong>হোমিওস্ট্যাসিস ও মিজান (Homeostasis &amp; Cosmic Balance):</strong> পবিত্র কুরআনে আল্লাহ তাআলা মহাবিশ্বের প্রতিটি সৃষ্টির মধ্যে &#39;মিজান&#39; বা সূক্ষ্ম ভারসাম্য রক্ষার কথা বলেছেন (সুরা আর-রহমান: ৭-৯)। মানবদেহের অভ্যন্তরীণ পরিবেশের স্থিরতা বা Homeostasis—অর্থাৎ রক্তের পিএইচ (pH), গ্লুকোজের মাত্রা, ইলেকট্রোলাইট, হরমোনের সমতা এবং মেটাবলিক ব্যালেন্স রক্ষা করাই হলো সুস্থতার মূল চাবিকাঠি।
+          </span>
+          <span class='lang-en'>
+            <strong>Homeostasis &amp; Cosmic Balance (Mizan):</strong> In the Holy Qur&#39;an, Allah Almighty speaks of establishing <em>&#39;Mizan&#39;</em>—a delicate, precise balance—across every creation in the universe (Surah Ar-Rahman: 7–9). Maintaining the stability of the human body&#39;s internal environment, or <em>Homeostasis</em>—namely blood pH, glucose levels, electrolytes, hormonal equilibrium, and metabolic balance—is the master key to optimal health.
+          </span>
+        </li>
+
+        <li>
+          <span class='lang-bn'>
+            <strong>এপিজেনেটিক্স (Epigenetics) ও সুন্নাহ জীবনধারা:</strong> বিংশ শতাব্দী পর্যন্ত ধারণা করা হতো মানুষের জিনগত বৈশিষ্ট্যই (DNA) তার রোগব্যাধির চূড়ান্ত নিয়ন্ত্রক। কিন্তু আধুনিক Epigenetics প্রমাণ করেছে যে, আমাদের খাদ্যাভ্যাস, উপবাস, ঘুম এবং মানসিক প্রশান্তি (যা সুন্নাহ দ্বারা নিয়ন্ত্রিত) আমাদের জিনের প্রকাশকে (Gene Expression) নিয়ন্ত্রণ করে। সঠিক জীবনধারার মাধ্যমে ক্যান্সার বা ডায়াবেটিসের মতো সুপ্ত অনকোজিনকে (Oncogenes) নিষ্ক্রিয় (Silenced) করে রাখা সম্ভব।
+          </span>
+          <span class='lang-en'>
+            <strong>Epigenetics &amp; the Prophetic Lifestyle:</strong> Until the twentieth century, it was widely believed that human genetic code (DNA) was the absolute determinant of disease. However, modern <em>Epigenetics</em> has proven that our diet, fasting, sleep, and mental peace (all regulated by the Sunnah) directly govern <em>Gene Expression</em>. Through a righteous lifestyle, dormant disease-causing genes such as <em>Oncogenes</em> (linked to cancer or diabetes) can be kept transcriptionally silenced.
+          </span>
+        </li>
+      </ul>
+
+      <div class='callout-quran'>
+        <span class='callout-label'>
+          <span class='lang-bn'>আল-কুরআনের মৌলিক স্বাস্থ্য নীতি</span>
+          <span class='lang-en'>FUNDAMENTAL HEALTH PRINCIPLE OF AL-QUR&#39;AN</span>
+        </span>
+        <p class='lang-bn' style='margin: 0;'>
+          &quot;তোমরা নিজেদের হাত দিয়ে নিজেদের ধ্বংসের মুখে ঠেলে দিও না। আর তোমরা মানুষের প্রতি অনুগ্রহ ও উত্তম আচরণ করো; নিশ্চয়ই আল্লাহ অনুগ্রহকারীদের ভালোবাসেন।&quot;
+        </p>
+        <p class='lang-en' style='margin: 0;'>
+          &quot;And do not throw yourselves into destruction with your own hands. And do good; indeed, Allah loves the doers of good.&quot;
+        </p>
+        <span class='citation-ref'>
+          <span class='lang-bn'>— সূরা আল-বাকারাহ: ১৯৫</span>
+          <span class='lang-en'>— Surah Al-Baqarah: 195</span>
+        </span>
+      </div>
+
+      <div class='callout-hadith'>
+        <span class='callout-label'>
+          <span class='lang-bn'>হাদিসে নববীর মৌলিক নির্দেশনা</span>
+          <span class='lang-en'>FOUNDATIONAL PROPHETIC GUIDANCE</span>
+        </span>
+        <p class='lang-bn' style='margin: 0;'>
+          রাসুলুল্লাহ (সা.) বলেছেন: &quot;দুটি মহামূল্যবান নিয়ামতের বিষয়ে পৃথিবীর বহু মানুষ ধোঁকার মধ্যে (অসচেতন ও উদাসীন) রয়েছে—তা হলো শারীরিক সুস্থতা এবং অবসর সময়।&quot;
+        </p>
+        <p class='lang-en' style='margin: 0;'>
+          The Messenger of Allah (ﷺ) said: &quot;There are two precious blessings concerning which many people are deceived (negligent and unmindful): physical health and free time.&quot;
+        </p>
+        <span class='citation-ref'>
+          <span class='lang-bn'>— সহীহ বুখারী: ৬৪১২</span>
+          <span class='lang-en'>— Sahih Al-Bukhari: 6412</span>
+        </span>
+      </div>
+
+      <hr style='border: 0; border-top: 1px dashed var(--border-color); margin: 22px 0;'/>
+
+      <!-- Exact Topic Anchor #sec-2 -->
+      <h2 class='section-heading' id='sec-2'>
+        <span class='lang-bn'>২. পরিপাকতন্ত্রের স্বাস্থ্য ও মেটাবলিক রেগুলেশন</span>
+        <span class='lang-en'>2. Gastrointestinal Health &amp; Metabolic Regulation</span>
+      </h2>
+      <div class='section-subheading'>
+        GASTROINTESTINAL HEALTH, CALORIC RESTRICTION &amp; METABOLIC REGULATION
+      </div>
+
+      <p class='lang-bn' style='text-align: justify; margin-bottom: 0;'>
+        আধুনিক চিকিৎসাবিজ্ঞানী ও পুষ্টিবিদগণ একমত যে, সকল দীর্ঘমেয়াদী অসংক্রামক রোগের (Chronic Non-Communicable Diseases—যেমন: টাইপ-২ ডায়াবেটিস, নন-অ্যালকোহলিক ফ্যাটি লিভার, উচ্চ রক্তচাপ, হৃদরোগ ও ক্যান্সার) মূল সূচনা হয় পরিপাকতন্ত্র থেকে। অতিরিক্ত ভোজন এবং কৃত্রিম খাদ্যাভ্যাস শরীরে হাইপারইনসুলিনেমিয়া (Hyperinsulinemia), ইনসুলিন রেজিস্ট্যান্স (Insulin Resistance) এবং দীর্ঘমেয়াদী সূক্ষ্ম প্রদাহ (Chronic Low-Grade Inflammation) তৈরি করে।
+      </p>
+      <p class='lang-en' style='text-align: justify; margin-bottom: 0;'>
+        Modern medical scientists and clinical nutritionists unanimously agree that the root onset of all chronic non-communicable diseases (such as Type-2 Diabetes, Non-Alcoholic Fatty Liver Disease, Hypertension, Cardiovascular Disease, and Cancer) originates in the gastrointestinal tract. Overeating and synthetic diets induce <em>Hyperinsulinemia</em>, <em>Insulin Resistance</em>, and <em>Chronic Low-Grade Inflammation</em> throughout the body.
+      </p>
+
+      <div class='page-card-footer'>
+        <span>Tibb-an-Nabawi &amp; Modern Biomedical Science Monograph</span>
+        <span>
+          <span class='lang-bn'>- পৃষ্ঠা ৩ / ২১ -</span>
+          <span class='lang-en'>- Page 3 / 21 -</span>
+        </span>
+      </div>
+    </article>
+
+    <!-- ==================== PAGE 4 / 21 (CORRESPONDS TO PDF PAGE 5: HALAL & TAYYIB QURANIC DIRECTIVES) ==================== -->
+    <article class='monograph-page-card' id='page-4'>
+      <div class='page-card-topbar'>
+        <span>
+          <span class='lang-bn'>প্রতিরোধই সর্বোত্তম চিকিৎসা | TIBB-AN-NABAWI &amp; MODERN SCIENCE</span>
+          <span class='lang-en'>PREVENTION IS THE BEST CURE | TIBB-AN-NABAWI &amp; MODERN SCIENCE</span>
+        </span>
+        <span class='page-number-badge'>
+          <span class='lang-bn'>পৃষ্ঠা ৪ / ২১</span>
+          <span class='lang-en'>Page 4 / 21</span>
+        </span>
+      </div>
+
+      <div class='callout-quran' style='margin-top: 0;'>
+        <span class='callout-label' id='sec-2-1'>
+          <span class='lang-bn'>১. হালাল ও তাইয়্যিব (পবিত্র, অর্গানিক ও প্রাকৃতিক) খাদ্য নির্বাচন: আল-কুরআনের পূর্ণাঙ্গ নির্দেশনা</span>
+          <span class='lang-en'>1. Selecting Halal &amp; Tayyib (Pure, Organic &amp; Natural) Food: Comprehensive Qur&#39;anic Directives</span>
+        </span>
+        <p class='lang-bn' style='margin: 0 0 10px 0;'>
+          &quot;হে মানবজাতি! পৃথিবীতে যা কিছু হালাল ও তাইয়্যিব (পবিত্র, নির্ভেজাল ও পুষ্টিকর) খাদ্য রয়েছে, তা থেকে তোমরা আহার করো এবং শয়তানের পদাঙ্ক অনুসরণ করো না।&quot;
+        </p>
+        <p class='lang-en' style='margin: 0 0 10px 0;'>
+          &quot;O mankind! Eat from whatever is on earth [that is] lawful (Halal) and pure/wholesome (Tayyib), and do not follow the footsteps of Satan.&quot;
+        </p>
+        <span class='citation-ref' style='margin-bottom: 14px;'>
+          <span class='lang-bn'>— সূরা আল-বাকারাহ: ১৬৮ (আধুনিক বিজ্ঞানে &#39;তাইয়্যিব&#39; হলো কেমিক্যালমুক্ত, অর্গানিক ও আন-প্রসেসড হোল ফুড)</span>
+          <span class='lang-en'>— Surah Al-Baqarah: 168 (In modern science, &#39;Tayyib&#39; denotes chemical-free, organic, and unprocessed whole food)</span>
+        </span>
+
+        <div style='background-color: var(--card-bg); border: 1px solid var(--border-color); border-left: 4px solid var(--accent-gold); border-radius: 6px; padding: 14px 16px; margin-top: 10px; font-size: 10pt; line-height: 1.7;'>
+          <div style='font-family: &quot;Noto Sans Bengali&quot;, &quot;Inter&quot;, sans-serif; font-size: 9.5pt; font-weight: 700; color: var(--badge-text); margin-bottom: 10px;'>
+            <span class='lang-bn'>📖 পবিত্র কুরআনে &#39;হালাল ও তাইয়্যিব&#39; খাদ্যের অন্যান্য প্রামাণ্য আয়াতসমূহ ও তাৎপর্য:</span>
+            <span class='lang-en'>📖 Other Authoritative Verses on &#39;Halal &amp; Tayyib&#39; Nutrition in the Holy Qur&#39;an and Their Significance:</span>
+          </div>
+
+          <ul style='padding-left: 18px; margin: 0;'>
+            <li style='margin-bottom: 8px;'>
+              <span class='lang-bn'><strong>সূরা আল-বাকারাহ (২:১৭২):</strong> &quot;হে মুমিনগণ! আমি তোমাদেরকে যে রিজিক দিয়েছি, তা থেকে পবিত্র ও উত্তম (তাইয়্যিবাত) বস্তু আহার করো এবং আল্লাহর কৃতজ্ঞতা প্রকাশ করো।&quot;</span>
+              <span class='lang-en'><strong>Surah Al-Baqarah (2:172):</strong> &quot;O you who believe! Eat from the pure and wholesome things (Tayyibat) which We have provided for you, and be grateful to Allah.&quot;</span>
+            </li>
+            <li style='margin-bottom: 8px;'>
+              <span class='lang-bn'><strong>সূরা আল-মায়িদাহ (৫:৮৮):</strong> &quot;আর আল্লাহ তোমাদেরকে যে রিজিক দিয়েছেন, তা থেকে হালাল ও পবিত্র (হালালান তাইয়্যিবা) খাদ্য গ্রহণ করো এবং আল্লাহকে ভয় করো, যাঁর প্রতি তোমরা বিশ্বাসী।&quot;</span>
+              <span class='lang-en'><strong>Surah Al-Ma&#39;idah (5:88):</strong> &quot;And eat of what Allah has provided for you [which is] lawful and pure (Halalan Tayyiba), and fear Allah, in Whom you are believers.&quot;</span>
+            </li>
+            <li style='margin-bottom: 8px;'>
+              <span class='lang-bn'><strong>সূরা আন-নাহল (১৬:১১৪):</strong> &quot;সুতরাং আল্লাহ তোমাদেরকে যে হালাল ও পবিত্র (হালালান তাইয়্যিবা) রিজিক দিয়েছেন, তা থেকে তোমরা আহার করো এবং আল্লাহর নিয়ামতের শুকরিয়া আদায় করো।&quot;</span>
+              <span class='lang-en'><strong>Surah An-Nahl (16:114):</strong> &quot;Then eat of what Allah has provided for you [which is] lawful and pure (Halalan Tayyiba), and be grateful for the favor of Allah.&quot;</span>
+            </li>
+            <li style='margin-bottom: 8px;'>
+              <span class='lang-bn'><strong>সূরা আল-আনফাল (৮:৬৯):</strong> &quot;সুতরাং তোমরা যা কিছু লাভ করেছ, তা হালাল ও পবিত্র (হালালান তাইয়্যিবা) হিসেবে ভক্ষণ করো এবং আল্লাহকে ভয় করো।&quot;</span>
+              <span class='lang-en'><strong>Surah Al-Anfal (8:69):</strong> &quot;So consume what you have gained as lawful and pure (Halalan Tayyiba), and fear Allah.&quot;</span>
+            </li>
+            <li style='margin-bottom: 8px;'>
+              <span class='lang-bn'><strong>সূরা আল-মুমিনুন (২৩:৫১):</strong> &quot;হে রাসূলগণ! তোমরা পবিত্র ও নির্ভেজাল (তাইয়্যিবাত) খাদ্য আহার করো এবং সৎকর্ম করো; তোমরা যা করো সে বিষয়ে আমি পূর্ণ অবগত।&quot; <em>(বিশুদ্ধ খাদ্য সরাসরি সৎকর্ম ও ইবাদতে শক্তি জোগায়)</em>।</span>
+              <span class='lang-en'><strong>Surah Al-Mu&#39;minun (23:51):</strong> &quot;O Messengers! Eat from the pure and wholesome foods (Tayyibat) and work righteousness. Indeed, I am Knower of what you do.&quot; <em>(Pure nutrition directly fuels righteous deeds and worship)</em>.</span>
+            </li>
+            <li style='margin-bottom: 8px;'>
+              <span class='lang-bn'><strong>সূরা ত্বা-হা (২০:৮১):</strong> &quot;আমি তোমাদেরকে যে পবিত্র (তাইয়্যিবাত) জীবিকা দান করেছি তা থেকে আহার করো, এবং এ বিষয়ে সীমালঙ্ঘন করো না (ভেজাল বা অতিরিক্ত ভোজনের মাধ্যমে), তাহলে আমার গজব তোমাদের ওপর আপতিত হবে।&quot;</span>
+              <span class='lang-en'><strong>Surah Ta-Ha (20:81):</strong> &quot;Eat from the pure things (Tayyibat) with which We have provided you, and do not transgress therein (through adulteration or overeating), lest My wrath should descend upon you.&quot;</span>
+            </li>
+            <li style='margin-bottom: 8px;'>
+              <span class='lang-bn'><strong>সূরা আল-আরাফ (৭:১৫৭):</strong> &quot;...তিনি (নবী ﷺ) তাদের জন্য পবিত্র ও উপকারী বস্তুসমূহ (তাইয়্যিবাত) হালাল ঘোষণা করেন এবং অপবিত্র ও ক্ষতিকর বস্তুসমূহ (খাবাঈস) হারাম করেন।&quot; <em>(স্বাস্থ্যের জন্য ক্ষতিকর সব খাবারই ইসলামে বর্জনীয়)</em>।</span>
+              <span class='lang-en'><strong>Surah Al-A&#39;raf (7:157):</strong> &quot;...He (the Prophet ﷺ) makes lawful for them the pure and beneficial things (Tayyibat) and prohibits for them the impure and harmful things (Khaba&#39;ith).&quot; <em>(Every substance harmful to human health is shunned in Islam)</em>.</span>
+            </li>
+            <li style='margin-bottom: 0;'>
+              <span class='lang-bn'><strong>সূরা আল-কাহফ (১৮:১৯):</strong> &quot;...সে যেন দেখে নেয় শহরের কোন খাবারটি সবচেয়ে বিশুদ্ধ ও পবিত্রতম (আযকা ত্বা&#39;আমান), এবং তা থেকে যেন তোমাদের জন্য কিছু আহার্য নিয়ে আসে।&quot; <em>(বাজার থেকে সর্বাধিক বিশুদ্ধ ও নিরাপদ খাবার খুঁজে কেনার কুরআনিক শিক্ষা)</em>।</span>
+              <span class='lang-en'><strong>Surah Al-Kahf (18:19):</strong> &quot;...Let him look to which part of the city has the purest and most wholesome food (Azka Ta&#39;aman), and bring you provision from it.&quot; <em>(The Qur&#39;anic teaching of actively seeking out the safest, most unadulterated food in the market)</em>.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class='page-card-footer'>
+        <span>Tibb-an-Nabawi &amp; Modern Biomedical Science Monograph</span>
+        <span>
+          <span class='lang-bn'>- পৃষ্ঠা ৪ / ২১ -</span>
+          <span class='lang-en'>- Page 4 / 21 -</span>
+        </span>
+      </div>
+    </article>
+
+    <!-- ==================== PAGE 5 / 21 (CORRESPONDS TO PDF PAGE 6: PRACTICAL EXAMPLES & CALORIC MODERATION) ==================== -->
+    <article class='monograph-page-card' id='page-5'>
+      <div class='page-card-topbar'>
+        <span>
+          <span class='lang-bn'>প্রতিরোধই সর্বোত্তম চিকিৎসা | TIBB-AN-NABAWI &amp; MODERN SCIENCE</span>
+          <span class='lang-en'>PREVENTION IS THE BEST CURE | TIBB-AN-NABAWI &amp; MODERN SCIENCE</span>
+        </span>
+        <span class='page-number-badge'>
+          <span class='lang-bn'>পৃষ্ঠা ৫ / ২১</span>
+          <span class='lang-en'>Page 5 / 21</span>
+        </span>
+      </div>
+
+      <div class='callout-quran' style='margin-top: 0;'>
+        <span class='callout-label'>
+          <span class='lang-bn'>🥗 দৈনন্দিন জীবনে &#39;হালাল ও তাইয়্যিব&#39; খাদ্যের ব্যবহারিক উদাহরণ:</span>
+          <span class='lang-en'>🥗 Practical Daily Examples of &#39;Halal &amp; Tayyib&#39; Foods:</span>
+        </span>
+
+        <ul class='monograph-list' style='margin-bottom: 0;'>
+          <li>
+            <span class='lang-bn'><strong>পূর্ণাঙ্গ শস্য ও প্রাকৃতিক শর্করা (Whole Grains):</strong> সাদা রিফাইন্ড ময়দার পরিবর্তে লাল আটা, ঢেঁকিছাঁটা লাল চাল, যব (Barley/তালবিনা) ও ওটস।</span>
+            <span class='lang-en'><strong>Whole Grains &amp; Natural Complex Carbohydrates:</strong> Whole wheat flour, unpolished red/brown rice, barley (Talbina), and oats instead of bleached refined white flour.</span>
+          </li>
+          <li>
+            <span class='lang-bn'><strong>নিরাপদ প্রোটিন (Clean Proteins):</strong> নদী বা সমুদ্রের প্রাকৃতিক মাছ, চারণভূমিতে ঘাস খাওয়া গবাদি পশুর গোশত, দেশি মুরগি ও অর্গানিক ডিম (হরমোন ও অ্যান্টিবায়োটিকমুক্ত)।</span>
+            <span class='lang-en'><strong>Clean Proteins:</strong> Wild-caught river or marine fish, grass-fed livestock meat, free-range poultry, and organic eggs (free from synthetic hormones and routine antibiotics).</span>
+          </li>
+          <li>
+            <span class='lang-bn'><strong>সুস্থ ও প্রাকৃতিক ফ্যাট (Healthy Natural Fats):</strong> পরিশোধিত সয়াবিন বা পাম অয়েলের পরিবর্তে এক্সট্রা ভার্জিন অলিভ অয়েল (জয়তুন তেল), ঘানি ভাঙা খাঁটি সরিষার তেল, দেশি ঘি ও মাখন।</span>
+            <span class='lang-en'><strong>Healthy Natural Fats:</strong> Extra Virgin Olive Oil (Zaytun), cold-pressed pure mustard oil, organic clarified butter (Ghee), and natural butter instead of industrial refined soybean or palm oils.</span>
+          </li>
+          <li>
+            <span class='lang-bn'><strong>অর্গানিক ফলমূল ও শাকসবজি (Fresh Produce):</strong> ফরমালিন, কৃত্রিম রং ও অতিরিক্ত কীটনাশকমুক্ত মৌসুমি তাজা শাকসবজি, খেজুর, ডালিম, ডুমুর (তীন) ও দেশীয় ফল।</span>
+            <span class='lang-en'><strong>Organic Fresh Produce:</strong> Seasonal fresh vegetables, dates, pomegranates, figs (Teen), and native fruits free from formalin, artificial dyes, and excessive pesticides.</span>
+          </li>
+          <li style='margin-bottom: 0;'>
+            <span class='lang-bn'><strong>কেন ফাস্টফুড &#39;তাইয়্যিব&#39; নয়? (Halal vs. Tayyib):</strong> বাজারের কোমল পানীয়, চিপস বা ট্রান্স-ফ্যাটযুক্ত ফাস্টফুডে হারাম উপাদান না থাকলেও সেগুলো দেহের কোষ ও অঙ্গপ্রত্যঙ্গের ক্ষতি করে—তাই সেগুলো &#39;তাইয়্যিব&#39; বা পবিত্র খাদ্যের মানদণ্ডে উত্তীর্ণ নয়।</span>
+            <span class='lang-en'><strong>Why Fast Food is Not &#39;Tayyib&#39; (Halal vs. Tayyib):</strong> Even if commercial soft drinks, chips, or trans-fat-laden fast foods do not contain technically forbidden (Haram) ingredients, they damage cellular membranes and vital organs—thus failing the Qur&#39;anic standard of &#39;Tayyib&#39; (wholesome and pure).</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class='callout-quran'>
+        <span class='callout-label' id='sec-2-2'>
+          <span class='lang-bn'>২. পরিমিত আহার ও ক্যালোরি নিয়ন্ত্রণ (ক্যালোরি নিয়ন্ত্রণ নীতি)</span>
+          <span class='lang-en'>2. Mindful Eating &amp; Caloric Regulation (CALORIC MODERATION PRINCIPLE)</span>
+        </span>
+        <p class='lang-bn' style='margin: 0;'>
+          &quot;তোমরা খাও এবং পান করো, কিন্তু অপচয় (অতিরিক্ত ভোজন) করো না। নিশ্চয়ই তিনি অপচয়কারীদের পছন্দ করেন না।&quot;
+        </p>
+        <p class='lang-en' style='margin: 0;'>
+          &quot;Eat and drink, but do not be excessive (by overeating). Indeed, He does not like those who commit excess.&quot;
+        </p>
+        <span class='citation-ref'>
+          <span class='lang-bn'>— সূরা আল-আরাফ: ৩১</span>
+          <span class='lang-en'>— Surah Al-A&#39;raf: 31</span>
+        </span>
+      </div>
+
+      <div class='page-card-footer'>
+        <span>Tibb-an-Nabawi &amp; Modern Biomedical Science Monograph</span>
+        <span>
+          <span class='lang-bn'>- পৃষ্ঠা ৫ / ২১ -</span>
+          <span class='lang-en'>- Page 5 / 21 -</span>
+        </span>
+      </div>
+    </article>
+
+    <!-- ==================== PAGE 6 / 21 (CORRESPONDS TO PDF PAGE 7: 1/3RD STOMACH RULE & BIOMEDICAL ANALYSIS) ==================== -->
+    <article class='monograph-page-card' id='page-6'>
+      <div class='page-card-topbar'>
+        <span>
+          <span class='lang-bn'>প্রতিরোধই সর্বোত্তম চিকিৎসা | TIBB-AN-NABAWI &amp; MODERN SCIENCE</span>
+          <span class='lang-en'>PREVENTION IS THE BEST CURE | TIBB-AN-NABAWI &amp; MODERN SCIENCE</span>
+        </span>
+        <span class='page-number-badge'>
+          <span class='lang-bn'>পৃষ্ঠা ৬ / ২১</span>
+          <span class='lang-en'>Page 6 / 21</span>
+        </span>
+      </div>
+
+      <div class='callout-hadith' style='margin-top: 0;'>
+        <span class='callout-label' id='sec-2-3'>
+          <span class='lang-bn'>৩. পাকস্থলীর ত্রি-বিভাজন নীতি (THE PROPHETIC 1/3RD STOMACH RULE)</span>
+          <span class='lang-en'>3. The Prophetic 1/3rd Stomach Rule (Tri-Partition Principle)</span>
+        </span>
+        <p class='lang-bn' style='margin: 0;'>
+          মিকদাম ইবনু মাদিকারিব (রা.) সূত্রে বর্ণিত, রাসুলুল্লাহ (সা.) বলেছেন: &quot;মানুষ পেটের চেয়ে নিকৃষ্ট কোনো পাত্র পূর্ণ করে না। আদম সন্তানের জন্য এতটুকু খাবারই যথেষ্ট, যা দিয়ে সে তার পিঠ সোজা রাখতে পারে (কর্মশক্তি বজায় থাকে)। আর যদি তা না-ই পারে, তবে সে যেন তার পেটের এক-তৃতীয়াংশ খাবারের জন্য, এক-তৃতীয়াংশ পানীয়ের জন্য এবং এক-তৃতীয়াংশ শ্বাস-প্রশ্বাসের জন্য খালি রাখে।&quot;
+        </p>
+        <p class='lang-en' style='margin: 0;'>
+          Narrated by Miqdam ibn Ma&#39;dikarib (RA), the Messenger of Allah (ﷺ) said: &quot;A human being fills no worse vessel than his stomach. It is sufficient for the son of Adam to eat a few mouthfuls to keep his spine straight (maintain vitality). But if he must fill it, then let him allocate one-third for his food, one-third for his drink, and leave one-third empty for easy breathing.&quot;
+        </p>
+        <span class='citation-ref'>
+          <span class='lang-bn'>— সুনানে তিরমিজি: ২৩৮০; ইবনু মাজাহ: ৩৩৪৯ (হাদিসটি সহীহ)</span>
+          <span class='lang-en'>— Jami at-Tirmidhi: 2380; Sunan Ibn Majah: 3349 (Sahih)</span>
+        </span>
+      </div>
+
+      <div class='grid-3-col'>
+        <div class='grid-box'>
+          <div class='grid-box-title'>
+            <span class='lang-bn'>১/৩ খাদ্য (Solid Food)</span>
+            <span class='lang-en'>1/3 Solid Food</span>
+          </div>
+          <p class='grid-box-desc'>
+            <span class='lang-bn'>পরিপাক এনজাইমের সঠিক মিশ্রণ ও পুষ্টি শোষণ নিশ্চিত করে</span>
+            <span class='lang-en'>Ensures optimal mixing of digestive enzymes and complete nutrient absorption</span>
+          </p>
+        </div>
+
+        <div class='grid-box'>
+          <div class='grid-box-title'>
+            <span class='lang-bn'>১/৩ পানীয় (Hydration)</span>
+            <span class='lang-en'>1/3 Hydration</span>
+          </div>
+          <p class='grid-box-desc'>
+            <span class='lang-bn'>হাইড্রোলাইসিস ও গ্যাস্ট্রিক জুসের সঠিক ঘনত্ব বজায় রাখে</span>
+            <span class='lang-en'>Facilitates enzymatic hydrolysis and maintains proper gastric juice viscosity</span>
+          </p>
+        </div>
+
+        <div class='grid-box'>
+          <div class='grid-box-title'>
+            <span class='lang-bn'>১/৩ বায়ু (Respiratory Space)</span>
+            <span class='lang-en'>1/3 Respiratory Space</span>
+          </div>
+          <p class='grid-box-desc'>
+            <span class='lang-bn'>ডায়াফ্রামের প্রসারণ, পেরিস্টালসিস ও অ্যাসিড রিফ্লাক্স (GERD) রোধ করে</span>
+            <span class='lang-en'>Allows diaphragmatic expansion, smooth peristalsis, and prevents acid reflux (GERD)</span>
+          </p>
+        </div>
+      </div>
+
+      <div class='callout-science'>
+        <span class='callout-label'>
+          <span class='lang-bn'>বৈজ্ঞানিক বিশ্লেষণ (Biomedical &amp; Molecular Perspective):</span>
+          <span class='lang-en'>Biomedical &amp; Molecular Analysis:</span>
+        </span>
+
+        <ul class='monograph-list' style='margin-bottom: 0;'>
+          <li>
+            <span class='lang-bn'>
+              <strong>ক্যালোরিক রেস্ট্রিকশন ও দীর্ঘায়ু (Caloric Restriction &amp; Longevity Pathways):</strong> পেটের এক-তৃতীয়াংশ খালি রাখার সুন্নাহ আধুনিক বিজ্ঞানের Caloric Restriction (CR)-এর সাথে হুবহু মিলে যায়। পরিমিত আহার শরীরে mTOR (Mechanistic Target of Rapamycin) পাথওয়ে নিষ্ক্রিয় করে এবং AMPK ও Sirtuins (SIRT1–SIRT7) নামক দীর্ঘায়ু প্রদানকারী প্রোটিন সক্রিয় করে। এটি কোষের বার্ধক্য (Cellular Senescence) রোধ করে এবং মাইটোকন্ড্রিয়ার কর্মক্ষমতা বাড়ায়।
+            </span>
+            <span class='lang-en'>
+              <strong>Caloric Restriction &amp; Longevity Pathways:</strong> The Sunnah of leaving one-third of the stomach empty aligns precisely with modern <em>Caloric Restriction (CR)</em> science. Moderate intake downregulates the <em>mTOR (Mechanistic Target of Rapamycin)</em> pathway and activates longevity-promoting proteins including <em>AMPK</em> and <em>Sirtuins (SIRT1–SIRT7)</em>. This prevents <em>Cellular Senescence</em> (premature aging) and enhances mitochondrial biogenesis and efficiency.
+            </span>
+          </li>
+
+          <li>
+            <span class='lang-bn'>
+              <strong>গাট মাইক্রোবায়োম ও ইমিউনিটি (Gut Microbiome &amp; Mucosal Immunity):</strong> মানবদেহের প্রায় ৭০% রোগপ্রতিরোধক কোষ (GALT – Gut-Associated Lymphoid Tissue) অন্ত্রে অবস্থান করে। অতিরিক্ত খাবার, চিনি ও আল্ট্রা-প্রসেসড ফুড অন্ত্রের উপকারী ব্যাকটেরিয়া ধ্বংস করে Gut Dysbiosis এবং Leaky Gut Syndrome তৈরি করে। পরিমিত ও আঁশযুক্ত প্রাকৃতিক খাবার অন্ত্রের দেয়াল (Intestinal Epithelial Barrier) সুরক্ষিত রাখে।
+            </span>
+            <span class='lang-en'>
+              <strong>Gut Microbiome &amp; Mucosal Immunity:</strong> Approximately 70% of the human body&#39;s immune cells (<em>GALT – Gut-Associated Lymphoid Tissue</em>) reside in the intestinal tract. Overeating, refined sugars, and ultra-processed foods destroy beneficial commensal bacteria, triggering <em>Gut Dysbiosis</em> and <em>Leaky Gut Syndrome</em>. Moderate, fiber-rich whole foods protect the <em>Intestinal Epithelial Barrier</em>.
+            </span>
+          </li>
+
+          <li style='margin-bottom: 0;'>
+            <span class='lang-bn'>
+              <strong>পোস্ট-প্রান্ডিয়াল অক্সিডেটিভ স্ট্রেস হ্রাস (Reduction of Postprandial Oxidative Stress):</strong> পেট ভরে খেলে রক্তে হঠাৎ গ্লুকোজ ও ট্রাইগ্লিসারাইডের মাত্রা বেড়ে যায় (Postprandial Dysmetabolism), যা রক্তনালীর এন্ডোথেলিয়ামে প্রদাহ সৃষ্টি করে। ত্রি-বিভাজন নীতি অনুসরণ করলে রক্তে গ্লুকোজের স্পাইক হয় না।
+            </span>
+            <span class='lang-en'>
+              <strong>Reduction of Postprandial Oxidative Stress:</strong> Gorging on heavy meals causes a sudden surge in blood glucose and triglycerides (<em>Postprandial Dysmetabolism</em>), generating reactive oxygen species and endothelial inflammation inside blood vessels. Following the 1/3rd tri-partition rule prevents dangerous post-meal glycemic spikes.
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <div class='page-card-footer'>
+        <span>Tibb-an-Nabawi &amp; Modern Biomedical Science Monograph</span>
+        <span>
+          <span class='lang-bn'>- পৃষ্ঠা ৬ / ২১ -</span>
+          <span class='lang-en'>- Page 6 / 21 -</span>
+        </span>
+      </div>
+    </article>
+
+    <!-- =========================================================================
+         [PASTE NEXT PAGES (PAGE 7 TO PAGE 21) BELOW THIS COMMENT IN NEXT STEPS]
+         ========================================================================= -->
+    
+        <!-- ==================== PAGE 7 / 21 (CORRESPONDS TO PDF PAGE 8: SECTION 3 - AUTOPHAGY & FASTING) ==================== -->
+    <article class='monograph-page-card' id='page-7'>
+      <div class='page-card-topbar'>
+        <span>
+          <span class='lang-bn'>প্রতিরোধই সর্বোত্তম চিকিৎসা | TIBB-AN-NABAWI &amp; MODERN SCIENCE</span>
+          <span class='lang-en'>PREVENTION IS THE BEST CURE | TIBB-AN-NABAWI &amp; MODERN SCIENCE</span>
+        </span>
+        <span class='page-number-badge'>
+          <span class='lang-bn'>পৃষ্ঠা ৭ / ২১</span>
+          <span class='lang-en'>Page 7 / 21</span>
+        </span>
+      </div>
+
+      <!-- Exact Topic Anchor #sec-3 -->
+      <h2 class='section-heading' id='sec-3'>
+        <span class='lang-bn'>৩. কোষীয় পুনর্গঠন, অটোফ্যাজি ও সুন্নাহ রোজা</span>
+        <span class='lang-en'>3. Cellular Regeneration, Autophagy &amp; Prophetic Fasting</span>
+      </h2>
+      <div class='section-subheading'>
+        CELLULAR REGENERATION, AUTOPHAGY &amp; PROPHETIC INTERMITTENT FASTING
+      </div>
+
+      <p class='lang-bn' style='text-align: justify;'>
+        রোজা বা সিয়াম কেবল একটি আধ্যাত্মিক ইবাদত নয়; এটি মানবদেহের ট্রিলিয়ন ট্রিলিয়ন কোষকে বিষমুক্ত (Detoxify), মেরামত ও নবায়ন করার সর্বশ্রেষ্ঠ জৈবিক পদ্ধতি। আধুনিক চিকিৎসা বিজ্ঞানে এটি Intermittent Fasting (IF) বা Time-Restricted Feeding নামে বিশ্বজুড়ে স্বীকৃত।
+      </p>
+      <p class='lang-en' style='text-align: justify;'>
+        Fasting (<em>Sawm</em>) is not merely a spiritual act of worship; it is the supreme biological mechanism for detoxifying, repairing, and renewing trillions of cells in the human body. In modern clinical medicine, this practice is globally recognized as <em>Intermittent Fasting (IF)</em> or <em>Time-Restricted Feeding (TRF)</em>.
+      </p>
+
+      <div class='callout-quran' style='margin-bottom: 0;'>
+        <span class='callout-label'>
+          <span class='lang-bn'>কুরআন ও সুন্নাহর নির্দেশনা</span>
+          <span class='lang-en'>QUR&#39;AN &amp; SUNNAH DIRECTIVES ON FASTING</span>
+        </span>
+        <ul class='monograph-list' style='margin-bottom: 0;'>
+          <li>
+            <span class='lang-bn'>
+              <strong>ফরজ রোজা:</strong> &quot;আর সিয়াম পালন করাই তোমাদের জন্য অধিকতর কল্যাণকর, যদি তোমরা জানতে!&quot; — (সূরা আল-বাকারাহ: ১৮৪)
+            </span>
+            <span class='lang-en'>
+              <strong>Obligatory Fasting:</strong> &quot;And to fast is best for you, if you only knew!&quot; — (Surah Al-Baqarah: 184)
+            </span>
+          </li>
+          <li style='margin-bottom: 0;'>
+            <span class='lang-bn'>
+              <strong>সাপ্তাহিক ও মাসিক সুন্নাহ রোজা:</strong> রাসুলুল্লাহ (সা.) প্রতি সপ্তাহে সোমবার ও বৃহস্পতিবার রোজা রাখতেন (সুনানে তিরমিজি: ৭৪৫) এবং প্রতি হিজরি মাসের ১৩, ১৪ ও ১৫ তারিখে (আইয়ামে বিজ বা শুভ্র দিনসমূহ) রোজা রাখার বিশেষ নির্দেশ দিয়েছেন (সহীহ বুখারী: ১৯৭৫)।
+            </span>
+            <span class='lang-en'>
+              <strong>Weekly &amp; Monthly Sunnah Fasting:</strong> The Messenger of Allah (ﷺ) regularly fasted on Mondays and Thursdays every week (Jami at-Tirmidhi: 745) and specifically instructed fasting on the 13th, 14th, and 15th days of every lunar Hijri month—known as <em>Ayyam al-Beed</em> or the White Days (Sahih Al-Bukhari: 1975).
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <div class='page-card-footer'>
+        <span>Tibb-an-Nabawi &amp; Modern Biomedical Science Monograph</span>
+        <span>
+          <span class='lang-bn'>- পৃষ্ঠা ৭ / ২১ -</span>
+          <span class='lang-en'>- Page 7 / 21 -</span>
+        </span>
+      </div>
+    </article>
+
+    <!-- ==================== PAGE 8 / 21 (CORRESPONDS TO PDF PAGE 9: AUTOPHAGY ANALYSIS & SECTION 4 INTRO) ==================== -->
+    <article class='monograph-page-card' id='page-8'>
+      <div class='page-card-topbar'>
+        <span>
+          <span class='lang-bn'>প্রতিরোধই সর্বোত্তম চিকিৎসা | TIBB-AN-NABAWI &amp; MODERN SCIENCE</span>
+          <span class='lang-en'>PREVENTION IS THE BEST CURE | TIBB-AN-NABAWI &amp; MODERN SCIENCE</span>
+        </span>
+        <span class='page-number-badge'>
+          <span class='lang-bn'>পৃষ্ঠা ৮ / ২১</span>
+          <span class='lang-en'>Page 8 / 21</span>
+        </span>
+      </div>
+
+      <div class='callout-science' style='margin-top: 0;'>
+        <span class='callout-label'>
+          <span class='lang-bn'>বৈজ্ঞানিক বিশ্লেষণ (Autophagy &amp; Endocrine Optimization):</span>
+          <span class='lang-en'>Biomedical Analysis (Autophagy &amp; Endocrine Optimization):</span>
+        </span>
+
+        <ul class='monograph-list' style='margin-bottom: 0;'>
+          <li>
+            <span class='lang-bn'>
+              <strong>অটোফ্যাজি ও নোবেল জয়ী আবিষ্কার (Autophagy – Cellular Self-Cleansing):</strong> ২০১৬ সালে জাপানি কোষবিজ্ঞানী Yoshinori Ohsumi &#39;অটোফ্যাজি&#39; প্রক্রিয়ার মেকানিজম আবিষ্কারের জন্য চিকিৎসাবিজ্ঞানে নোবেল পুরস্কার লাভ করেন। টানা ১২ থেকে ১৬ ঘণ্টা পানাহার থেকে বিরত থাকলে শরীরে গ্লাইকোজেন কমে যায় এবং Autophagosome গঠিত হয়। এই প্রক্রিয়ায় শরীরের সুস্থ কোষগুলো ভেতরের মৃত অর্গানেল, ক্ষতিগ্রস্ত প্রোটিন, ভাইরাস-ব্যাকটেরিয়া এবং টিউমার সৃষ্টিকারী মিউট্যান্ট কোষগুলোকে ভেঙে রিসাইকেল করে নতুন কোষ তৈরি করে। সুন্নাহ রোজা (সপ্তাহে ২ দিন) মূলত শরীরের নিয়মিত &#39;সেলুলার ওভারহলিং&#39; নিশ্চিত করে।
+            </span>
+            <span class='lang-en'>
+              <strong>Autophagy – The Nobel Prize-Winning Discovery (Cellular Self-Cleansing):</strong> In 2016, Japanese cell biologist <em>Yoshinori Ohsumi</em> was awarded the Nobel Prize in Physiology or Medicine for discovering the molecular mechanisms of <em>Autophagy</em>. Abstaining from food and drink for 12 to 16 consecutive hours depletes hepatic glycogen stores and triggers the formation of <em>Autophagosomes</em>. Through this process, healthy cells engulf, degrade, and recycle damaged organelles, misfolded proteins, intracellular viruses/bacteria, and pre-cancerous mutant cells to construct fresh cellular components. Sunnah fasting (twice a week) ensures regular &#39;cellular overhauling&#39; of the body.
+            </span>
+          </li>
+
+          <li>
+            <span class='lang-bn'>
+              <strong>হিউম্যান গ্রোথ হরমোন (HGH) ও ফ্যাট বার্নিং:</strong> রোজা অবস্থায় রক্তে ইনসুলিনের মাত্রা সর্বনিম্ন পর্যায়ে (Baseline) নেমে আসে। ফলে Lipolysis প্রক্রিয়ায় শরীর জমে থাকা ভিসেরাল ফ্যাট (পেটের ও লিভারের চর্বি) গলিয়ে কিটোন বডি (Ketone Bodies) তৈরি করে মস্তিষ্ক ও পেশিতে শক্তি জোগায়। একইসাথে পিটুইটারি গ্রন্থি থেকে Human Growth Hormone (HGH) নিঃসরণ বহুগুণ বৃদ্ধি পায়, যা পেশি ও টিস্যুর ক্ষয় রোধ করে।
+            </span>
+            <span class='lang-en'>
+              <strong>Human Growth Hormone (HGH) &amp; Visceral Fat Burning:</strong> During fasting, circulating blood insulin drops to its lowest baseline level. Consequently, through <em>Lipolysis</em>, the body mobilizes stubborn visceral fat (abdominal and hepatic fat) and converts it into <em>Ketone Bodies</em> to provide clean energy for the brain and muscles. Simultaneously, pituitary secretion of <em>Human Growth Hormone (HGH)</em> increases manifold, preserving lean muscle mass and tissue integrity.
+            </span>
+          </li>
+
+          <li style='margin-bottom: 0;'>
+            <span class='lang-bn'>
+              <strong>স্টেম সেল রিজেনারেশন (Stem Cell Activation):</strong> এমআইটি (MIT) ও সাউদার্ন ক্যালিফোর্নিয়া বিশ্ববিদ্যালয়ের গবেষণায় প্রমাণিত হয়েছে যে, ২৪ ঘণ্টার উপবাস বা রোজা অন্ত্রের এবং রক্তের Hematopoietic Stem Cells পুনর্গঠনের ক্ষমতা দ্বিগুণ বাড়িয়ে দেয় এবং কেমোথেরাপির মতো টক্সিক প্রভাব থেকেও কোষকে রক্ষা করে।
+            </span>
+            <span class='lang-en'>
+              <strong>Stem Cell Activation &amp; Regeneration:</strong> Research from MIT and the University of Southern California (USC) has demonstrated that a 24-hour fast doubles the regenerative capacity of intestinal and <em>Hematopoietic Stem Cells</em>, rejuvenating the immune system and protecting healthy tissues from chemotoxic damage.
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <hr style='border: 0; border-top: 1px dashed var(--border-color); margin: 22px 0;'/>
+
+      <!-- Exact Topic Anchor #sec-4 -->
+      <h2 class='section-heading' id='sec-4'>
+        <span class='lang-bn'>৪. সার্কাডিয়ান রিদম ও ঘুমের নিউরোবায়োলজি</span>
+        <span class='lang-en'>4. Circadian Rhythm &amp; Neurobiology of Sleep</span>
+      </h2>
+      <div class='section-subheading'>
+        CIRCADIAN BIOLOGY, PINEAL GLAND REGULATION &amp; SLEEP ARCHITECTURE
+      </div>
+
+      <p class='lang-bn' style='text-align: justify;'>
+        মানবদেহের প্রতিটি কোষ একটি প্রাকৃতিক ঘড়ি বা Master Biological Clock (Suprachiasmatic Nucleus - SCN) মেনে চলে, যা সূর্যের আলো ও রাতের অন্ধকারের সাথে সরাসরি সম্পর্কিত। ২০১৭ সালে Jeffrey C. Hall, Michael Rosbash এবং Michael W. Young সার্কাডিয়ান রিদমের মলিকুলার মেকানিজম আবিষ্কারের জন্য নোবেল পুরস্কার পান। এই প্রাকৃতিক ঘড়ির বিপরীতে চলাই (রাত জাগা ও দেরিতে ঘুম থেকে ওঠা) আধুনিক যুগের অনিদ্রা, হতাশা, স্থূলতা ও হরমোনাল ইমব্যালেন্সের প্রধান কারণ।
+      </p>
+      <p class='lang-en' style='text-align: justify;'>
+        Every cell in the human body operates according to an internal <em>Master Biological Clock</em>—the <em>Suprachiasmatic Nucleus (SCN)</em> in the hypothalamus—which is directly synchronized with solar daylight and nocturnal darkness. In 2017, <em>Jeffrey C. Hall</em>, <em>Michael Rosbash</em>, and <em>Michael W. Young</em> received the Nobel Prize for elucidating the molecular mechanisms controlling the circadian rhythm. Living against this natural clock (staying awake late at night and waking up late in the morning) is a primary driver of modern insomnia, clinical depression, obesity, and hormonal imbalance.
+      </p>
+
+      <div class='callout-quran' style='margin-bottom: 0;'>
+        <span class='callout-label'>
+          <span class='lang-bn'>কুরআন ও সুন্নাহর সার্কাডিয়ান নীতি</span>
+          <span class='lang-en'>CIRCADIAN PRINCIPLES OF THE QUR&#39;AN &amp; SUNNAH</span>
+        </span>
+        <ul class='monograph-list' style='margin-bottom: 0;'>
+          <li>
+            <span class='lang-bn'>
+              <strong>রাতের ঘুম ও দিনের কর্মচাঞ্চল্য:</strong> &quot;আর আমি তোমাদের নিদ্রাকে করেছি ক্লান্তি দূরকারী (দেহ ও মনের বিশ্রাম), রাত্রিকে করেছি আবরণ এবং দিনকে করেছি জীবিকা অর্জনের সময়।&quot; — (সূরা আন-নাবা: ৯-১১)
+            </span>
+            <span class='lang-en'>
+              <strong>Nocturnal Rest &amp; Diurnal Vitality:</strong> &quot;And We made your sleep a means for rest (recovery of body and mind), and We made the night as a covering, and We made the day for livelihood.&quot; — (Surah An-Naba: 9–11)
+            </span>
+          </li>
+          <li>
+            <span class='lang-bn'>
+              <strong>এশার পর দ্রুত নিদ্রা:</strong> আবু বারযাহ (রা.) হতে বর্ণিত, &quot;রাসুলুল্লাহ (সা.) এশার নামাজের পূর্বে ঘুমানো এবং এশার নামাজের পর অহেতুক কথাবার্তা বলা (রাত জাগা) কঠোরভাবে অপছন্দ করতেন।&quot; — (সহীহ বুখারী: ৫৬৮)
+            </span>
+            <span class='lang-en'>
+              <strong>Prompt Sleep After Isha Prayer:</strong> Narrated by Abu Barzah (RA): &quot;The Messenger of Allah (ﷺ) strongly disliked sleeping before the Isha prayer and engaging in idle conversation (staying up late) after it.&quot; — (Sahih Al-Bukhari: 568)
+            </span>
+          </li>
+          <li style='margin-bottom: 0;'>
+            <span class='lang-bn'>
+              <strong>দুপুরের ভাতঘুম বা কাইলুলাহ (Siesta / Power Nap):</strong> রাসুলুল্লাহ (সা.) বলেছেন: &quot;তোমরা কাইলুলাহ (দুপুরের কাজের ফাঁকে সামান্য বিশ্রাম) করো; কেননা শয়তান কাইলুলাহ করে না।&quot; — (আল-মু&#39;জামুল আওসাত, সিলসিলাহ সহীহাহ: ১৬৪৭)
+            </span>
+            <span class='lang-en'>
+              <strong>The Midday Nap or Qailulah (Siesta / Power Nap):</strong> The Messenger of Allah (ﷺ) said: &quot;Take the midday nap (Qailulah—a brief rest during the day&#39;s work), for indeed Satan does not take Qailulah.&quot; — (Al-Mu&#39;jam al-Awsat; Silsilah as-Sahihah: 1647)
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <div class='page-card-footer'>
+        <span>Tibb-an-Nabawi &amp; Modern Biomedical Science Monograph</span>
+        <span>
+          <span class='lang-bn'>- পৃষ্ঠা ৮ / ২১ -</span>
+          <span class='lang-en'>- Page 8 / 21 -</span>
+        </span>
+      </div>
+    </article>
+
+    <!-- ==================== PAGE 9 / 21 (CORRESPONDS TO PDF PAGE 10: SLEEP NEUROBIOLOGY & SECTION 5 INTRO) ==================== -->
+    <article class='monograph-page-card' id='page-9'>
+      <div class='page-card-topbar'>
+        <span>
+          <span class='lang-bn'>প্রতিরোধই সর্বোত্তম চিকিৎসা | TIBB-AN-NABAWI &amp; MODERN SCIENCE</span>
+          <span class='lang-en'>PREVENTION IS THE BEST CURE | TIBB-AN-NABAWI &amp; MODERN SCIENCE</span>
+        </span>
+        <span class='page-number-badge'>
+          <span class='lang-bn'>পৃষ্ঠা ৯ / ২১</span>
+          <span class='lang-en'>Page 9 / 21</span>
+        </span>
+      </div>
+
+      <div class='callout-science' style='margin-top: 0;'>
+        <span class='callout-label'>
+          <span class='lang-bn'>বৈজ্ঞানিক বিশ্লেষণ (Neurobiology &amp; Endocrinology of Sleep):</span>
+          <span class='lang-en'>Biomedical Analysis (Neurobiology &amp; Endocrinology of Sleep):</span>
+        </span>
+
+        <ul class='monograph-list' style='margin-bottom: 0;'>
+          <li>
+            <span class='lang-bn'>
+              <strong>মেলাটোনিন ও কর্টিসল চক্র (Melatonin-Cortisol Axis):</strong> এশার নামাজের পর পরই (রাত ৯টা থেকে ১০টার মধ্যে) মস্তিষ্কের পিনিয়াল গ্রন্থি থেকে মেলাটোনিন (Melatonin) হরমোন নিঃসরণ শুরু হয় এবং রাত ১২টা থেকে ২টার মধ্যে সর্বোচ্চ পর্যায়ে পৌঁছায়। মেলাটোনিন কেবল গভীর ঘুমই আনে না, এটি শরীরের সবচেয়ে শক্তিশালী এন্ডোজেনাস অ্যান্টি-অক্সিডেন্ট যা ক্যান্সার কোষ দমন করে। রাত জেগে স্মার্টফোন বা ল্যাপটপের Blue Light (450-480 nm তরঙ্গদৈর্ঘ্য) দেখলে মেলাটোনিন উৎপাদন বন্ধ হয়ে যায়। পক্ষান্তরে, ভোরবেলা (ফজরের ওয়াক্তে) শরীরে কর্টিসল (Cortisol Awakening Response) ও ডোপামিন নিঃসৃত হয়, যা সারাদিন প্রাকৃতিক উদ্দীপনা জোগায়।
+            </span>
+            <span class='lang-en'>
+              <strong>The Melatonin-Cortisol Axis:</strong> Shortly after Isha prayer (between 9:00 PM and 10:00 PM), the brain&#39;s pineal gland initiates the secretion of <em>Melatonin</em>, which peaks between 12:00 AM and 2:00 AM. Melatonin not only induces restorative deep sleep, but also acts as the body&#39;s most potent endogenous antioxidant, suppressing tumor proliferation. Exposure to <em>Blue Light</em> (450–480 nm wavelength) from smartphones or laptops late at night halts melatonin synthesis. Conversely, at dawn (Fajr time), a natural surge of <em>Cortisol (Cortisol Awakening Response)</em> and Dopamine is released, providing sustained alertness and motivation throughout the day.
+            </span>
+          </li>
+
+          <li>
+            <span class='lang-bn'>
+              <strong>গ্লিম্ফ্যাটিক সিস্টেম ও মস্তিষ্ক পরিষ্কারকরণ (Glymphatic Clearance):</strong> রাতের প্রথম ভাগের গভীর ঘুমে (Slow-Wave Deep Sleep) মস্তিষ্কের Glymphatic System ১০ গুণ বেশি সক্রিয় হয়। এ সময় গ্লিয়াল কোষগুলো সংকুচিত হয়ে সেরিব্রোস্পাইনাল ফ্লুইড (CSF) প্রবাহিত করে এবং মস্তিষ্ক থেকে Beta-Amyloid ও Tau Protein নামক বিষাক্ত বর্জ্য ধুয়ে বের করে দেয়। এটি আলঝেইমার্স (Alzheimer&#39;s Disease) ও ডিমেনশিয়া প্রতিরোধে অপরিহার্য।
+            </span>
+            <span class='lang-en'>
+              <strong>Glymphatic System &amp; Brain Detoxification:</strong> During Slow-Wave Deep Sleep in the first part of the night, the brain&#39;s <em>Glymphatic System</em> becomes 10 times more active. Glial cells shrink by nearly 60%, allowing Cerebrospinal Fluid (CSF) to flush through brain tissue and wash away neurotoxic metabolic waste, including <em>Beta-Amyloid</em> plaques and <em>Tau Proteins</em>. This nightly clearance is indispensable for preventing Alzheimer&#39;s Disease and neurodegenerative dementia.
+            </span>
+          </li>
+
+          <li style='margin-bottom: 0;'>
+            <span class='lang-bn'>
+              <strong>কাইলুলাহ বা পাওয়ার ন্যাপের কার্যকারিতা:</strong> নাসা (NASA) এবং হার্ভার্ড স্কুল অব পাবলিক হেলথের গবেষণায় দেখা গেছে, দুপুরে ২০-৩০ মিনিটের হালকা ঘুম বা Qailulah মস্তিষ্কের অ্যাডেনোসিন (ক্লান্তি সৃষ্টিকারী উপাদান) দূর করে, কর্মক্ষমতা ৩৪% ও মনোযোগ ৫৪% বৃদ্ধি করে এবং করোনারি হৃদরোগের ঝুঁকি ৩৭% পর্যন্ত কমিয়ে দেয়।
+            </span>
+            <span class='lang-en'>
+              <strong>Clinical Efficacy of Qailulah (Power Nap):</strong> Joint studies by NASA and the Harvard School of Public Health reveal that a 20–30 minute midday nap (<em>Qailulah</em>) clears accumulated Adenosine (the sleep-pressure molecule) from the brain, boosts cognitive performance by 34%, enhances alertness by 54%, and reduces the risk of coronary heart disease mortality by up to 37%.
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <hr style='border: 0; border-top: 1px dashed var(--border-color); margin: 22px 0;'/>
+
+      <!-- Exact Topic Anchor #sec-5 -->
+      <h2 class='section-heading' id='sec-5'>
+        <span class='lang-bn'>৫. শারীরিক সক্ষমতা, বায়োমেকানিক্স ও সালাত</span>
+        <span class='lang-en'>5. Physical Vitality, Biomechanics &amp; Salah</span>
+      </h2>
+      <div class='section-subheading'>
+        PHYSICAL VITALITY, BIOMECHANICS &amp; MUSCULOSKELETAL HEALTH
+      </div>
+
+      <p class='lang-bn' style='text-align: justify; margin-bottom: 0;'>
+        ইসলাম অলসতা, ভুঁড়ি বৃদ্ধি এবং স্থবির জীবনযাপনকে (Sedentary Lifestyle) কঠোরভাবে নিরুৎসাহিত করেছে। আধুনিক চিকিৎসা বিজ্ঞানে বলা হয়—<em>&quot;Sitting is the new smoking&quot;</em> (দীর্ঘক্ষণ বসে থাকা ধূমপানের মতোই ক্ষতিকর)।
+      </p>
+      <p class='lang-en' style='text-align: justify; margin-bottom: 0;'>
+        Islam strongly discourages laziness, central abdominal obesity, and a sedentary lifestyle. Modern preventive medicine aptly states: <em>&quot;Sitting is the new smoking&quot;</em>—prolonged physical inactivity is as detrimental to cardiovascular and metabolic health as tobacco use.
+      </p>
+
+      <div class='page-card-footer'>
+        <span>Tibb-an-Nabawi &amp; Modern Biomedical Science Monograph</span>
+        <span>
+          <span class='lang-bn'>- পৃষ্ঠা ৯ / ২১ -</span>
+          <span class='lang-en'>- Page 9 / 21 -</span>
+        </span>
+      </div>
+    </article>
+
+    <!-- ==================== PAGE 10 / 21 (CORRESPONDS TO PDF PAGE 11: PHYSICAL VITALITY & BRISK WALKING) ==================== -->
+    <article class='monograph-page-card' id='page-10'>
+      <div class='page-card-topbar'>
+        <span>
+          <span class='lang-bn'>প্রতিরোধই সর্বোত্তম চিকিৎসা | TIBB-AN-NABAWI &amp; MODERN SCIENCE</span>
+          <span class='lang-en'>PREVENTION IS THE BEST CURE | TIBB-AN-NABAWI &amp; MODERN SCIENCE</span>
+        </span>
+        <span class='page-number-badge'>
+          <span class='lang-bn'>পৃষ্ঠা ১০ / ২১</span>
+          <span class='lang-en'>Page 10 / 21</span>
+        </span>
+      </div>
+
+      <div class='callout-hadith' style='margin-top: 0;'>
+        <span class='callout-label'>
+          <span class='lang-bn'>সুন্নাহর শারীরিক সক্ষমতা নীতি</span>
+          <span class='lang-en'>PROPHETIC PRINCIPLES OF PHYSICAL VITALITY</span>
+        </span>
+        <ul class='monograph-list' style='margin-bottom: 0;'>
+          <li>
+            <span class='lang-bn'>
+              <strong>শক্তিশালী মুমিন:</strong> রাসূলুল্লাহ (সা.) বলেছেন: &quot;শক্তিশালী ও কর্মঠ মুমিন আল্লাহর কাছে দুর্বল মুমিনের চেয়ে অধিক প্রিয় এবং কল্যাণকর...&quot; — (সহীহ মুসলিম: ২৬৬৪)
+            </span>
+            <span class='lang-en'>
+              <strong>The Strong Believer:</strong> The Messenger of Allah (ﷺ) said: &quot;The strong and active believer is more beloved and beneficial to Allah than the weak believer...&quot; — (Sahih Muslim: 2664)
+            </span>
+          </li>
+          <li>
+            <span class='lang-bn'>
+              <strong>নববী হাঁটার ধরন (Prophetic Gait):</strong> সাহাবী আবু হুরায়রা (রা.) বর্ণনা করেন, রাসুলুল্লাহ (সা.) যখন হাঁটতেন, তখন এতটা দ্রুত, দৃঢ় ও শক্তিশালীভাবে পা ফেলতেন যে মনে হতো তিনি উঁচু স্থান থেকে নিচের দিকে নামছেন এবং মাটি তাঁর জন্য সংকুচিত হয়ে যাচ্ছে। — (সুনানে তিরমিজি: ৩৬৩৭)
+            </span>
+            <span class='lang-en'>
+              <strong>The Prophetic Gait (Brisk Walking):</strong> Companion Abu Hurairah (RA) narrated that when the Messenger of Allah (ﷺ) walked, he stepped with such briskness, firmness, and vigor that it seemed as though he were descending from an elevated slope and the earth was folding beneath his feet. — (Jami at-Tirmidhi: 3637)
+            </span>
+          </li>
+          <li style='margin-bottom: 0;'>
+            <span class='lang-bn'>
+              <strong>ক্রীড়া ও শরীরচর্চা:</strong> রাসূলুল্লাহ (সা.) সাঁতার কাটা, তীরন্দাজি, ঘোড়দৌড়, কুস্তি এবং দৌড় প্রতিযোগিতাকে উৎসাহিত করেছেন (উম্মুল মুমিনীন আয়েশা রা.-এর সাথে তাঁর দৌড় প্রতিযোগিতার হাদিসটি সুপ্রসিদ্ধ — সুনানে আবু দাউদ: ২৫৭৮)।
+            </span>
+            <span class='lang-en'>
+              <strong>Sports &amp; Physical Conditioning:</strong> The Messenger of Allah (ﷺ) actively encouraged swimming, archery, equestrianism (horseback riding), wrestling, and footraces (his footrace with Ummul Mu&#39;minin Aisha [RA] is famously recorded in Sunan Abi Dawud: 2578).
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <div class='callout-science' style='margin-bottom: 0;'>
+        <span class='callout-label'>
+          <span class='lang-bn'>বৈজ্ঞানিক বিশ্লেষণ (Exercise Physiology &amp; Biomechanics):</span>
+          <span class='lang-en'>Biomedical Analysis (Exercise Physiology &amp; Biomechanics):</span>
+        </span>
+
+        <ul class='monograph-list' style='margin-bottom: 0;'>
+          <li style='margin-bottom: 0;'>
+            <span class='lang-bn'>
+              <strong>Brisk Walking ও কার্ডিওভাসকুলার ফিটনেস:</strong> রাসূল (সা.)-এর হাঁটার ধরনকে আধুনিক স্পোর্টস সায়েন্সে বলা হয় <em>High-Pace Brisk Walking</em>। এটি হৃদপিণ্ডের স্ট্রোক ভলিউম বাড়ায়, রক্তনালীতে <strong>Nitric Oxide (NO)</strong> নিঃসরণ বাড়িয়ে উচ্চ রক্তচাপ নিয়ন্ত্রণ করে এবং মস্তিষ্কে <strong>BDNF (Brain-Derived Neurotrophic Factor)</strong> বৃদ্ধি করে, যা হিপোক্যাম্পাসে নতুন নিউরন গঠনে (Neurogenesis) সাহায্য করে।
+            </span>
+            <span class='lang-en'>
+              <strong>High-Pace Brisk Walking &amp; Cardiovascular Fitness:</strong> The walking style of the Prophet (ﷺ) is classified in modern sports science as <em>High-Pace Brisk Walking</em>. It increases cardiac stroke volume, stimulates endothelial <strong>Nitric Oxide (NO)</strong> release to vasodilate blood vessels and lower blood pressure, and upregulates <strong>BDNF (Brain-Derived Neurotrophic Factor)</strong>, which drives the growth of new neurons in the hippocampus (<em>Neurogenesis</em>).
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <div class='page-card-footer'>
+        <span>Tibb-an-Nabawi &amp; Modern Biomedical Science Monograph</span>
+        <span>
+          <span class='lang-bn'>- পৃষ্ঠা ১০ / ২১ -</span>
+          <span class='lang-en'>- Page 10 / 21 -</span>
+        </span>
+      </div>
+    </article>
+
+    <!-- ==================== PAGE 11 / 21 (CORRESPONDS TO PDF PAGE 12: NEUROGENESIS, SALAH & SECTION 6 INTRO) ==================== -->
+    <article class='monograph-page-card' id='page-11'>
+      <div class='page-card-topbar'>
+        <span>
+          <span class='lang-bn'>প্রতিরোধই সর্বোত্তম চিকিৎসা | TIBB-AN-NABAWI &amp; MODERN SCIENCE</span>
+          <span class='lang-en'>PREVENTION IS THE BEST CURE | TIBB-AN-NABAWI &amp; MODERN SCIENCE</span>
+        </span>
+        <span class='page-number-badge'>
+          <span class='lang-bn'>পৃষ্ঠা ১১ / ২১</span>
+          <span class='lang-en'>Page 11 / 21</span>
+        </span>
+      </div>
+
+      <div class='callout-science' style='margin-top: 0;'>
+        <!-- Special Clinical Note: Hippocampal Neurogenesis -->
+        <div style='background-color: var(--card-bg); border: 1px solid var(--border-color); border-left: 4px solid var(--accent-gold); border-radius: 6px; padding: 14px 16px; margin-bottom: 16px; font-size: 10pt; line-height: 1.65;'>
+          <div style='font-family: &quot;Noto Sans Bengali&quot;, &quot;Inter&quot;, sans-serif; font-size: 9.5pt; font-weight: 700; color: var(--badge-text); margin-bottom: 8px;'>
+            <span class='lang-bn'>🧠 বিশেষ ক্লিনিক্যাল নোট: হিপোক্যাম্পাস ও মস্তিষ্কের নতুন কোষ গঠন (Neurogenesis)</span>
+            <span class='lang-en'>🧠 Special Clinical Note: The Hippocampus &amp; Adult Brain Neurogenesis</span>
+          </div>
+
+          <ul style='padding-left: 18px; margin: 0;'>
+            <li style='margin-bottom: 6px;'>
+              <span class='lang-bn'><strong>হিপোক্যাম্পাসের গুরুত্ব ও গবেষণা:</strong> হিপোক্যাম্পাস হলো মস্তিষ্কের স্মৃতিশক্তি, নতুন কিছু শেখা এবং আবেগ নিয়ন্ত্রণের মূল কেন্দ্র। সুইডেনের <em>কারোলিনস্কা ইনস্টিটিউট (Karolinska Institute)</em> ও অন্যান্য আন্তর্জাতিক গবেষণায় প্রমাণিত হয়েছে যে, প্রাপ্তবয়স্ক ও বৃদ্ধ বয়সেও (এমনকি ৭০ বছর বা তার বেশি বয়সেও) হিপোক্যাম্পাসে নতুন নিউরন তৈরি হতে পারে।</span>
+              <span class='lang-en'><strong>Role of the Hippocampus &amp; Landmark Research:</strong> The hippocampus is the brain&#39;s primary hub for memory consolidation, spatial learning, and emotional regulation. Landmark research from the <em>Karolinska Institute</em> in Sweden and international neurobiology centers has proven that new neurons continue to be generated in the adult human hippocampus well into old age (even past 70 years of age).</span>
+            </li>
+            <li style='margin-bottom: 6px;'>
+              <span class='lang-bn'><strong>ব্যায়াম ও BDNF জ্বালানি:</strong> দ্রুত হাঁটা (Brisk Walking), দৌড়ানো, সাঁতার কাটা বা সাইকেল চালানোর মতো ব্যায়াম মস্তিষ্কে <em>BDNF</em> প্রোটিনের ক্ষরণ বাড়ায়, যা নতুন নিউরন তৈরি ও সুরক্ষায় প্রধান জ্বালানি হিসেবে কাজ করে।</span>
+              <span class='lang-en'><strong>Aerobic Exercise &amp; BDNF Fuel:</strong> Brisk walking, running, swimming, or cycling dramatically increases cerebral <em>BDNF</em> protein expression, serving as the primary molecular fertilizer for generating and protecting new neurons.</span>
+            </li>
+            <li style='margin-bottom: 6px;'>
+              <span class='lang-bn'><strong>মস্তিষ্ক-বান্ধব পুষ্টি ও রোজা:</strong> ওমেগা-৩ ফ্যাটি অ্যাসিড (সামুদ্রিক মাছ, আখরোট), ফ্ল্যাভোনয়েড সমৃদ্ধ খাবার (ব্লুবেরি, ডার্ক চকোলেট, গ্রিন টি), এবং ক্যালোরি রেস্ট্রিকশন বা ইন্টারমিটেন্ট ফাস্টিং (সুন্নাহ রোজা) নিউরোজেনেসিস প্রক্রিয়াকে ত্বরান্বিত করে।</span>
+              <span class='lang-en'><strong>Brain-Friendly Nutrition &amp; Fasting:</strong> Omega-3 fatty acids (marine fish, walnuts), flavonoid-rich foods (berries, dark chocolate, green tea), and caloric restriction or intermittent fasting (Sunnah fasting) accelerate hippocampal neurogenesis.</span>
+            </li>
+            <li style='margin-bottom: 0;'>
+              <span class='lang-bn'><strong>গভীর ঘুম ও স্থায়ী নেটওয়ার্ক:</strong> রাতের পর্যাপ্ত ও গভীর ঘুম নতুন তৈরি হওয়া নিউরনগুলোকে মস্তিষ্কের স্থায়ী স্নায়বিক নেটওয়ার্কের সাথে সফলভাবে জুড়ে যেতে সাহায্য করে।</span>
+              <span class='lang-en'><strong>Deep Sleep &amp; Synaptic Integration:</strong> Sufficient nocturnal slow-wave sleep enables newly formed neurons to successfully integrate into the brain&#39;s permanent neural circuitry.</span>
+            </li>
+          </ul>
+        </div>
+
+        <ul class='monograph-list' style='margin-bottom: 0;'>
+          <li style='margin-bottom: 0;'>
+            <span class='lang-bn'>
+              <strong>সালাতের বায়োমেকানিক্স (Biomechanics of Salah):</strong> দৈনিক ৫ ওয়াক্ত ফরজ ও সুন্নাহ নামাজ মানবদেহের মেরুদণ্ড (Vertebral Column) এবং প্রতিটি সাইনোভিয়াল জয়েন্টের (কাঁধ, কনুই, কব্জি, কোমর, হাঁটু ও গোড়ালি) সচলতা রক্ষা করে। রুকু অবস্থায় হ্যামস্ট্রিং ও লোয়ার ব্যাক পেশির আইসোমেট্রিক স্ট্রেচিং হয়। সিজদার সময় হৃদপিণ্ড মস্তিষ্কের ওপরে অবস্থান করায় অভিকর্ষের টানে মস্তিষ্কের প্রি-ফ্রন্টাল কর্টেক্সে রক্ত সঞ্চালন (Cerebral Perfusion) বৃদ্ধি পায়, যা স্মৃতিশক্তি, একাগ্রতা ও মানসিক স্থিতিশীলতা বাড়ায়।
+            </span>
+            <span class='lang-en'>
+              <strong>Biomechanics of Salah (Ritual Prayer):</strong> Performing the 5 daily obligatory and Sunnah prayers preserves the mobility of the vertebral column and every synovial joint in the body (shoulders, elbows, wrists, hips, knees, and ankles). During Ruku (bowing), the hamstrings, calves, and lumbar spine undergo isometric stretching. During Sujud (prostration), because the heart is positioned higher than the brain, gravitational pull enhances <em>Cerebral Perfusion</em> (blood flow) to the prefrontal cortex—improving memory, executive focus, neurovascular elasticity, and emotional stability.
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <hr style='border: 0; border-top: 1px dashed var(--border-color); margin: 22px 0;'/>
+
+      <!-- Exact Topic Anchor #sec-6 -->
+      <h2 class='section-heading' id='sec-6'>
+        <span class='lang-bn'>৬. প্রিভেন্টিভ হাইজিন, ফিতরাত ও মাইক্রোবায়োম</span>
+        <span class='lang-en'>6. Preventive Hygiene, Fitrah &amp; the Microbiome</span>
+      </h2>
+      <div class='section-subheading'>
+        PREVENTIVE HYGIENE, ORAL-SYSTEMIC HEALTH &amp; MUCOSAL IMMUNOLOGY
+      </div>
+
+      <p class='lang-bn' style='text-align: justify; margin-bottom: 0;'>
+        রোগজীবাণু শরীরে প্রবেশের প্রধান পথগুলোকে (মুখগহ্বর, নাসারন্ধ্র, ত্বক ও হাত) পরিষ্কার রাখা সংক্রামক এবং দীর্ঘমেয়াদী প্রদাহজনিত উভয় রোগ প্রতিরোধের প্রথম প্রতিরক্ষা ব্যূহ (First Line of Defense)।
+      </p>
+      <p class='lang-en' style='text-align: justify; margin-bottom: 0;'>
+        Keeping the primary portals of pathogen entry into the human body (the oral cavity, nasal passages, skin, and hands) scrupulously clean forms the <em>First Line of Defense</em> against both acute infectious diseases and chronic inflammatory disorders.
+      </p>
+
+      <div class='page-card-footer'>
+        <span>Tibb-an-Nabawi &amp; Modern Biomedical Science Monograph</span>
+        <span>
+          <span class='lang-bn'>- পৃষ্ঠা ১১ / ২১ -</span>
+          <span class='lang-en'>- Page 11 / 21 -</span>
+        </span>
+      </div>
+    </article>
+
+    <!-- ==================== PAGE 12 / 21 (CORRESPONDS TO PDF PAGE 13: HYGIENE, MISWAK & NASAL IRRIGATION) ==================== -->
+    <article class='monograph-page-card' id='page-12'>
+      <div class='page-card-topbar'>
+        <span>
+          <span class='lang-bn'>প্রতিরোধই সর্বোত্তম চিকিৎসা | TIBB-AN-NABAWI &amp; MODERN SCIENCE</span>
+          <span class='lang-en'>PREVENTION IS THE BEST CURE | TIBB-AN-NABAWI &amp; MODERN SCIENCE</span>
+        </span>
+        <span class='page-number-badge'>
+          <span class='lang-bn'>পৃষ্ঠা ১২ / ২১</span>
+          <span class='lang-en'>Page 12 / 21</span>
+        </span>
+      </div>
+
+      <div class='callout-hadith' style='margin-top: 0;'>
+        <span class='callout-label'>
+          <span class='lang-bn'>সুন্নাহর পরিচ্ছন্নতা ও ফিতরাত</span>
+          <span class='lang-en'>PROPHETIC HYGIENE &amp; NATURAL FITRAH</span>
+        </span>
+        <ul class='monograph-list' style='margin-bottom: 0;'>
+          <li>
+            <span class='lang-bn'>
+              <strong>পবিত্রতার মর্যাদা:</strong> &quot;পবিত্রতা ও পরিচ্ছন্নতা ঈমানের অর্ধেক।&quot; — (সহীহ মুসলিম: ২২৩)
+            </span>
+            <span class='lang-en'>
+              <strong>Status of Purity:</strong> &quot;Purity and cleanliness are half of faith (Iman).&quot; — (Sahih Muslim: 223)
+            </span>
+          </li>
+          <li>
+            <span class='lang-bn'>
+              <strong>মিসওয়াক (ওরাল হাইজিন):</strong> &quot;আমার উম্মতের জন্য কষ্টকর না হলে আমি তাদের প্রতি ওয়াক্ত নামাজের সময় (অথবা প্রতি ওযুর সাথে) মিসওয়াক করার নির্দেশ দিতাম।&quot; — (সহীহ বুখারী: ৮৮৭)
+            </span>
+            <span class='lang-en'>
+              <strong>Miswak (Oral Hygiene):</strong> &quot;Were it not that I would place a burden upon my Ummah, I would have commanded them to use the Miswak at every prayer (or with every ablution/Wudu).&quot; — (Sahih Al-Bukhari: 887)
+            </span>
+          </li>
+          <li style='margin-bottom: 0;'>
+            <span class='lang-bn'>
+              <strong>ওযু ও নাসারন্ধ্র পরিষ্কার:</strong> ওযুর সময় নাকে পানি দিয়ে ভালোভাবে ঝাড়া (ইস্তিনশাক ও ইস্তিনসার), খাবারের আগে ও পরে হাত ধোয়া এবং প্রাকৃতিক ফিতরাতের ৫টি কাজ (নখ কাটা, অবাঞ্ছিত লোম পরিষ্কার ইত্যাদি — সহীহ বুখারী: ৫৮৮৯)।
+            </span>
+            <span class='lang-en'>
+              <strong>Wudu &amp; Nasal Irrigation:</strong> Rinsing and gently blowing out the nostrils with water during Wudu (<em>Istinshaq</em> and <em>Istinthar</em>), washing hands before and after meals, and observing the 5 natural practices of <em>Fitrah</em> (trimming nails, removing unwanted body hair, etc. — Sahih Al-Bukhari: 5889).
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <div class='callout-science' style='margin-bottom: 0;'>
+        <span class='callout-label'>
+          <span class='lang-bn'>বৈজ্ঞানিক বিশ্লেষণ (Oral-Systemic Link &amp; Mucosal Defense):</span>
+          <span class='lang-en'>Biomedical Analysis (Oral-Systemic Link &amp; Mucosal Defense):</span>
+        </span>
+
+        <ul class='monograph-list' style='margin-bottom: 0;'>
+          <li>
+            <span class='lang-bn'>
+              <strong>পেরিওডন্টাল ডিজিজ ও হৃদরোগের সম্পর্ক (The Oral-Systemic Axis):</strong> আধুনিক ডেন্টাল ও কার্ডিওলজি রিসার্চ প্রমাণ করেছে যে, অপরিষ্কার দাঁত ও মাড়ির প্রদাহ (Periodontitis) থেকে সৃষ্ট ব্যাকটেরিয়া (বিশেষ করে <em>Porphyromonas gingivalis</em> এবং <em>Streptococcus mutans</em>) ক্ষুদ্র রক্তনালী দিয়ে রক্তপ্রবাহে মিশে যায়। এটি হৃদপিণ্ডের করোনারি ধমনীতে প্লাক বা ব্লক (Atherosclerosis), এন্ডোকার্ডাইটিস এবং মস্তিষ্কে নিউরো-ইনফ্ল্যামেশন তৈরি করে।
+            </span>
+            <span class='lang-en'>
+              <strong>The Oral-Systemic Axis (Periodontal Disease &amp; Heart Health):</strong> Modern dental and cardiological research has established that pathogenic bacteria from uncleaned teeth and inflamed gums (<em>Periodontitis</em>)—particularly <em>Porphyromonas gingivalis</em> and <em>Streptococcus mutans</em>—enter the systemic bloodstream through gingival micro-capillaries. This bacteremia promotes atherosclerotic plaque formation in coronary arteries, infective endocarditis, and cerebral neuro-inflammation.
+            </span>
+          </li>
+
+          <li>
+            <span class='lang-bn'>
+              <strong>মিসওয়াকের ফার্মাকোলজি (Salvadora persica):</strong> প্রাকৃতিক মিসওয়াকে (বিশেষ করে পিলু বা আরাক গাছের ডাল) রয়েছে ১৯টিরও বেশি প্রাকৃতিক বায়ো-অ্যাক্টিভ উপাদান—যেমন: <strong>Silica</strong> (দাঁতের দাগ দূর করে), <strong>Tannic Acid</strong> (মাড়ি শক্ত করে), <strong>Salvadorine, Trimethylamine, Fluoride</strong> এবং <strong>Sulfur Compounds</strong>। বাজারের কেমিক্যাল মাউথওয়াশ মুখের উপকারী ব্যাকটেরিয়া ধ্বংস করে রক্তচাপ বাড়িয়ে দেয়, কিন্তু মিসওয়াক মুখের প্রাকৃতিক মাইক্রোবায়োম ও লালার পিএইচ (Salivary pH) অক্ষুণ্ণ রেখেই ক্ষতিকর প্যাথোজেন ধ্বংস করে।
+            </span>
+            <span class='lang-en'>
+              <strong>Pharmacology of the Miswak (Salvadora persica):</strong> Natural Miswak twigs (from the Arak tree) contain over 19 bioactive phytochemical compounds—including <strong>Silica</strong> (natural abrasive that removes plaque stains), <strong>Tannic Acid</strong> (astringent that strengthens gum tissue), <strong>Salvadorine, Trimethylamine, natural Fluoride,</strong> and <strong>Sulfur Compounds</strong>. Whereas commercial chemical mouthwashes indiscriminately kill beneficial oral nitrate-reducing bacteria (thereby raising systemic blood pressure), Miswak selectively eradicates harmful pathogens while preserving the natural oral microbiome and optimal salivary pH.
+            </span>
+          </li>
+
+          <li style='margin-bottom: 0;'>
+            <span class='lang-bn'>
+              <strong>নেজাল ইরিগেশন (Nasal Irrigation in Wudu):</strong> দিনে ৫ বার ওযুর সময় নাকে পানি টেনে পরিষ্কার করা সাইনাসের সিলিয়া (Cilia) সচল রাখে এবং মিউকাস মেমব্রেনে আটকে থাকা শ্বাসতন্ত্রের ভাইরাস (Influenza, Coronaviruses), অ্যালার্জেন ও ধূলিকণা ফুসফুসে পৌঁছানোর আগেই বের করে দেয়।
+            </span>
+            <span class='lang-en'>
+              <strong>Nasal Irrigation in Wudu:</strong> Rinsing the nasal passages 5 times daily during Wudu keeps sinus <em>Cilia</em> motile and mechanically flushes out trapped respiratory viruses (Influenza, Coronaviruses), airborne allergens, and particulate pollutants from the mucosal membrane before they can descend into the lungs.
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <div class='page-card-footer'>
+        <span>Tibb-an-Nabawi &amp; Modern Biomedical Science Monograph</span>
+        <span>
+          <span class='lang-bn'>- পৃষ্ঠা ১২ / ২১ -</span>
+          <span class='lang-en'>- Page 12 / 21 -</span>
+        </span>
+      </div>
+    </article>
+
+    <!-- ==================== PAGE 13 / 21 (CORRESPONDS TO PDF PAGE 14: SECTION 7 - PNI & MENTAL PEACE) ==================== -->
+    <article class='monograph-page-card' id='page-13'>
+      <div class='page-card-topbar'>
+        <span>
+          <span class='lang-bn'>প্রতিরোধই সর্বোত্তম চিকিৎসা | TIBB-AN-NABAWI &amp; MODERN SCIENCE</span>
+          <span class='lang-en'>PREVENTION IS THE BEST CURE | TIBB-AN-NABAWI &amp; MODERN SCIENCE</span>
+        </span>
+        <span class='page-number-badge'>
+          <span class='lang-bn'>পৃষ্ঠা ১৩ / ২১</span>
+          <span class='lang-en'>Page 13 / 21</span>
+        </span>
+      </div>
+
+      <!-- Exact Topic Anchor #sec-7 -->
+      <h2 class='section-heading' id='sec-7'>
+        <span class='lang-bn'>৭. সাইকো-নিউরো-ইমিউনোলজি ও মানসিক প্রশান্তি</span>
+        <span class='lang-en'>7. Psycho-Neuro-Immunology &amp; Mental Peace</span>
+      </h2>
+      <div class='section-subheading'>
+        PSYCHO-NEURO-IMMUNOLOGY (PNI), VAGUS NERVE STIMULATION &amp; MENTAL PEACE
+      </div>
+
+      <p class='lang-bn' style='text-align: justify;'>
+        আধুনিক চিকিৎসা বিজ্ঞানের অত্যন্ত গুরুত্বপূর্ণ একটি শাখা হলো <strong>Psycho-Neuro-Immunology (PNI)</strong>। এটি প্রমাণ করে যে মানুষের মস্তিষ্ক, স্নায়ুতন্ত্র এবং রোগপ্রতিরোধ ক্ষমতা একে অপরের সাথে অবিচ্ছেদ্যভাবে যুক্ত। দীর্ঘমেয়াদী মানসিক চাপ (Chronic Stress), অস্থিরতা, ক্রোধ, হিংসা ও হতাশা সরাসরি মানুষের ইমিউন সিস্টেমকে পঙ্গু করে দেয়।
+      </p>
+      <p class='lang-en' style='text-align: justify;'>
+        One of the most vital frontiers of modern medical science is <strong>Psycho-Neuro-Immunology (PNI)</strong>, which demonstrates that the human brain, endocrine system, nervous system, and immune defense network are inseparably interconnected. Chronic psychological stress, anxiety, rage, envy, and despair directly paralyze the human immune system.
+      </p>
+
+      <div class='callout-quran'>
+        <span class='callout-label'>
+          <span class='lang-bn'>কুরআন ও সুন্নাহর সাইকো-থেরাপি</span>
+          <span class='lang-en'>PSYCHOTHERAPY OF THE QUR&#39;AN &amp; SUNNAH</span>
+        </span>
+        <ul class='monograph-list' style='margin-bottom: 0;'>
+          <li>
+            <span class='lang-bn'>
+              <strong>১. হৃদয়ের প্রশান্তি:</strong> &quot;জেনে রেখো, আল্লাহর জিকির (স্মরণ ও ধ্যান) দ্বারাই কেবল হৃদয়সমূহ প্রকৃত প্রশান্তি লাভ করে।&quot; — (সূরা আর-রা&#39;দ: ২৮)
+            </span>
+            <span class='lang-en'>
+              <strong>1. Tranquility of the Heart:</strong> &quot;Unquestionably, it is by the remembrance (Dhikr and mindfulness) of Allah that hearts find true rest and tranquility.&quot; — (Surah Ar-Ra&#39;d: 28)
+            </span>
+          </li>
+          <li>
+            <span class='lang-bn'>
+              <strong>২. ক্রোধ নিয়ন্ত্রণ (Anger Management):</strong> এক ব্যক্তি রাসূলুল্লাহ (সা.)-কে সংক্ষিপ্ত নসিহত করতে বললে তিনি বললেন: &quot;তুমি রাগান্বিত হয়ো না (লা তাগদাব)।&quot; লোকটি বারবার উপদেশ চাইলে তিনি প্রতিবারই বললেন: &quot;তুমি রাগান্বিত হয়ো না।&quot; — (সহীহ বুখারী: ৬১১৬)
+            </span>
+            <span class='lang-en'>
+              <strong>2. Anger Management:</strong> A man asked the Messenger of Allah (ﷺ) for brief life advice, to which he replied: &quot;Do not become angry (La Taghdab).&quot; The man repeated his request several times, and each time the Prophet (ﷺ) said: &quot;Do not become angry.&quot; — (Sahih Al-Bukhari: 6116)
+            </span>
+          </li>
+          <li style='margin-bottom: 0;'>
+            <span class='lang-bn'>
+              <strong>৩. রাগের শারীরিক চিকিৎসা:</strong> রাসূল (সা.) শিখিয়েছেন—দাঁড়ানো অবস্থায় রাগ এলে বসে পড়া, তাতেও না কমলে শুয়ে পড়া (আবু দাউদ: ৪৭৮২) এবং ঠান্ডা পানি দিয়ে ওযু করা।
+            </span>
+            <span class='lang-en'>
+              <strong>3. Physiological Therapy for Acute Anger:</strong> The Prophet (ﷺ) taught that if anger strikes while standing, one should sit down; if it does not subside, one should lie down (Sunan Abi Dawud: 4782) and perform Wudu with cool water.
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <div class='callout-science' style='margin-bottom: 0;'>
+        <span class='callout-label'>
+          <span class='lang-bn'>বৈজ্ঞানিক বিশ্লেষণ (HPA-Axis &amp; Autonomic Nervous System):</span>
+          <span class='lang-en'>Biomedical Analysis (HPA-Axis &amp; Autonomic Nervous System):</span>
+        </span>
+        <ul class='monograph-list' style='margin-bottom: 0;'>
+          <li style='margin-bottom: 0;'>
+            <span class='lang-bn'>
+              <strong>কর্টিসল টক্সিসিটি ও সাইটোকাইন ঝড়:</strong> মানুষ যখন ক্রমাগত দুশ্চিন্তা, লোভ বা ক্রোধের মধ্যে থাকে, তখন মস্তিষ্কের <em>Hypothalamic-Pituitary-Adrenal (HPA) Axis</em> অতিরিক্ত সক্রিয় হয়ে অ্যাড্রিনাল গ্রন্থি থেকে অনবরত <strong>Cortisol</strong> এবং <strong>Catecholamines (Adrenaline &amp; Noradrenaline)</strong> নিঃসরণ করে। এটি রক্তচাপ ও ব্লাড সুগার বাড়িয়ে দেয় এবং শরীরের <em>Natural Killer (NK) Cells</em> ও <em>T-Lymphocytes</em> (যা ভাইরাস ও ক্যান্সার কোষ ধ্বংস করে)-এর সংখ্যা মারাত্মকভাবে কমিয়ে দেয়। রাগের সময় দাঁড়ানো থেকে বসে বা শুয়ে পড়লে গ্র্যাভিটেশনাল পরিবর্তনের ফলে হৃদস্পন্দন ও সিম্প্যাথেটিক ওভারড্রাইভ দ্রুত কমে আসে (Baroreceptor Reflex)।
+            </span>
+            <span class='lang-en'>
+              <strong>Cortisol Toxicity &amp; Cytokine Storms:</strong> When a person remains in a state of chronic worry, greed, or hostility, the brain&#39;s <em>Hypothalamic-Pituitary-Adrenal (HPA) Axis</em> becomes hyperactive, continuously flooding the bloodstream with <strong>Cortisol</strong> and <strong>Catecholamines (Adrenaline &amp; Noradrenaline)</strong> from the adrenal glands. This elevates blood pressure and blood glucose while severely depleting <em>Natural Killer (NK) Cells</em> and <em>T-Lymphocytes</em> (the immune cells responsible for destroying virus-infected and cancerous cells). Changing posture from standing to sitting or lying down during anger triggers gravitational hemodynamic shifts and the <em>Baroreceptor Reflex</em>, rapidly curbing heart rate and sympathetic overdrive.
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <div class='page-card-footer'>
+        <span>Tibb-an-Nabawi &amp; Modern Biomedical Science Monograph</span>
+        <span>
+          <span class='lang-bn'>- পৃষ্ঠা ১৩ / ২১ -</span>
+          <span class='lang-en'>- Page 13 / 21 -</span>
+        </span>
+      </div>
+    </article>
+
+    <!-- ==================== PAGE 14 / 21 (CORRESPONDS TO PDF PAGE 15: VAGUS NERVE & SECTION 8 TABLE PART 1) ==================== -->
+    <article class='monograph-page-card' id='page-14'>
+      <div class='page-card-topbar'>
+        <span>
+          <span class='lang-bn'>প্রতিরোধই সর্বোত্তম চিকিৎসা | TIBB-AN-NABAWI &amp; MODERN SCIENCE</span>
+          <span class='lang-en'>PREVENTION IS THE BEST CURE | TIBB-AN-NABAWI &amp; MODERN SCIENCE</span>
+        </span>
+        <span class='page-number-badge'>
+          <span class='lang-bn'>পৃষ্ঠা ১৪ / ২১</span>
+          <span class='lang-en'>Page 14 / 21</span>
+        </span>
+      </div>
+
+      <div class='callout-science' style='margin-top: 0;'>
+        <ul class='monograph-list' style='margin: 0;'>
+          <li style='margin-bottom: 0;'>
+            <span class='lang-bn'>
+              <strong>ভ্যাগাস নার্ভ ও প্যারাসিম্প্যাথেটিক অ্যাক্টিভেশন:</strong> মনোযোগের সাথে (খুশু-খুজু) নামাজ আদায়, সুমিষ্ট স্বরে কুরআন তিলাওয়াত (Rhythmic Breathing &amp; Acoustic Resonance), জিকির এবং আল্লাহর ওপর তাওয়াক্কুল (নির্ভরতা) মস্তিষ্কের দশম ক্রেনিয়াল নার্ভ বা <strong>Vagus Nerve</strong>-কে উদ্দীপিত করে। এর ফলে শরীরে <em>Acetylcholine</em> ও <em>Oxytocin</em> নিঃসৃত হয়, মস্তিষ্কে আলফা ও থিটা ব্রেন ওয়েভ (Alpha &amp; Theta Waves) তৈরি হয় এবং শরীর &#39;Fight or Flight&#39; (উত্তেজনা) অবস্থা থেকে বেরিয়ে &#39;Rest, Digest and Repair&#39; (প্রশান্তি ও নিরাময়) অবস্থায় চলে আসে।
+            </span>
+            <span class='lang-en'>
+              <strong>Vagus Nerve Stimulation &amp; Parasympathetic Activation:</strong> Performing Salah with deep mindfulness (<em>Khushu</em>), reciting the Holy Qur&#39;an in a measured, melodious cadence (combining <em>Rhythmic Breathing &amp; Acoustic Resonance</em>), practicing Dhikr, and placing complete trust (<em>Tawakkul</em>) in Allah stimulate the tenth cranial nerve—the <strong>Vagus Nerve</strong>. This releases <em>Acetylcholine</em> and <em>Oxytocin</em>, generates calming <em>Alpha and Theta brainwaves</em>, and shifts the body out of &#39;Fight or Flight&#39; sympathetic stress into the &#39;Rest, Digest, and Repair&#39; parasympathetic healing state.
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <hr style='border: 0; border-top: 1px dashed var(--border-color); margin: 22px 0;'/>
+
+      <!-- Exact Topic Anchor #sec-8 -->
+      <h2 class='section-heading' id='sec-8'>
+        <span class='lang-bn'>৮. প্রফেটিক সুপারফুডস ও প্রাকৃতিক ফার্মাকোলজি</span>
+        <span class='lang-en'>8. Prophetic Superfoods &amp; Natural Pharmacology</span>
+      </h2>
+      <div class='section-subheading'>
+        PROPHETIC NUTRACEUTICALS, PHYTOCHEMICALS &amp; CLINICAL PHARMACOLOGY
+      </div>
+
+      <p class='lang-bn' style='text-align: justify;'>
+        কুরআন ও সহীহ হাদিসে বর্ণিত বিশেষ কিছু প্রাকৃতিক খাদ্য উপাদান রয়েছে, যা আধুনিক বায়োকেমিস্ট্রি ও ক্লিনিক্যাল ট্রায়ালের গবেষণায় শক্তিশালী রোগ-প্রতিরোধক এবং থেরাপিউটিক এজেন্ট (Nutraceuticals &amp; Functional Foods) হিসেবে প্রমাণিত হয়েছে।
+      </p>
+      <p class='lang-en' style='text-align: justify;'>
+        The Holy Qur&#39;an and authentic Hadith highlight several specific natural foods that have been validated by modern biochemistry and clinical trials as potent preventive and therapeutic agents (<em>Nutraceuticals &amp; Functional Foods</em>).
+      </p>
+
+      <!-- Responsive Academic Table (Part 1: Nigella sativa & Pure Raw Honey - Matches PDF Page 15) -->
+      <div class='table-responsive' style='margin-bottom: 0;'>
+        <table class='monograph-table'>
+          <thead>
+            <tr>
+              <th style='width: 18%;'>
+                <span class='lang-bn'>খাদ্য উপাদান</span>
+                <span class='lang-en'>Prophetic Superfood</span>
+              </th>
+              <th style='width: 24%;'>
+                <span class='lang-bn'>কুরআন ও হাদিসের প্রামাণ্য সূত্র</span>
+                <span class='lang-en'>Scriptural Reference (Qur&#39;an &amp; Hadith)</span>
+              </th>
+              <th style='width: 24%;'>
+                <span class='lang-bn'>সক্রিয় জৈব-রাসায়নিক উপাদান (Bioactive Compounds)</span>
+                <span class='lang-en'>Active Bioactive Compounds</span>
+              </th>
+              <th style='width: 34%;'>
+                <span class='lang-bn'>বৈজ্ঞানিক ও ক্লিনিক্যাল উপকারিতা (Clinical Mechanisms)</span>
+                <span class='lang-en'>Clinical &amp; Pharmacological Mechanisms</span>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Row 1: Black Seed (Nigella sativa) -->
+            <tr>
+              <td>
+                <strong class='lang-bn'>কালোজিরা</strong>
+                <strong class='lang-en'>Black Seed (Kalonji)</strong><br/>
+                <em>(Nigella sativa)</em>
+              </td>
+              <td>
+                <span class='lang-bn'>
+                  &quot;কালোজিরায় মৃত্যু ব্যতীত সর্বরোগের নিরাময় রয়েছে।&quot;<br/>
+                  — <strong>সহীহ বুখারী: ৫৬৮৮</strong>
+                </span>
+                <span class='lang-en'>
+                  &quot;In the black seed there is healing for every disease except death.&quot;<br/>
+                  — <strong>Sahih Al-Bukhari: 5688</strong>
+                </span>
+              </td>
+              <td>
+                <strong>Thymoquinone (TQ)</strong>,<br/>
+                Thymohydroquinone, Dithymoquinone, Nigellone
+              </td>
+              <td>
+                <span class='lang-bn'>
+                  শক্তিশালী অ্যান্টি-ইনফ্ল্যামেটরি (NF-κB পাথওয়ে দমন করে), ইমিউন-মডুলেটর (T-cell ও NK cell বাড়ায়), টিউমার কোষ ধ্বংসকারী (Apoptosis), অ্যান্টি-হিস্টামিন এবং ইনসুলিন সংবেদনশীলতা বৃদ্ধিকারী।
+                </span>
+                <span class='lang-en'>
+                  Potent anti-inflammatory (inhibits NF-κB pathway), immunomodulator (boosts T-cells &amp; NK cells), induces cancer cell Apoptosis, natural antihistamine, and enhances insulin sensitivity.
+                </span>
+              </td>
+            </tr>
+
+            <!-- Row 2: Pure Raw Honey -->
+            <tr>
+              <td>
+                <strong class='lang-bn'>খাঁটি মধু</strong>
+                <strong class='lang-en'>Pure Raw Honey</strong><br/>
+                <em>(Apis mellifera)</em>
+              </td>
+              <td>
+                <span class='lang-bn'>
+                  &quot;তাতে মানুষের জন্য রয়েছে আরোগ্য (শিফা)।&quot;<br/>
+                  — <strong>সূরা আন-নাহল: ৬৯</strong>
+                </span>
+                <span class='lang-en'>
+                  &quot;Therein is healing (Shifa) for mankind.&quot;<br/>
+                  — <strong>Surah An-Nahl: 69</strong>
+                </span>
+              </td>
+              <td>
+                <strong>Flavonoids (Quercetin)</strong>,<br/>
+                Phenolic Acids, Glucose Oxidase, Defensin-1
+              </td>
+              <td>
+                <span class='lang-bn'>
+                  প্রিবায়োটিক হিসেবে অন্ত্রের <em>Bifidobacteria</em> ও <em>Lactobacilli</em> বাড়ায়, ন্যাচারাল ব্রড-স্পেকট্রাম অ্যান্টিবায়োটিক, গ্যাস্ট্রিক আলসার ও ক্ষত নিরাময়কারী এবং কার্ডিও-প্রোটেক্টিভ।
+                </span>
+                <span class='lang-en'>
+                  Acts as a prebiotic increasing intestinal <em>Bifidobacteria</em> &amp; <em>Lactobacilli</em>, natural broad-spectrum antimicrobial, heals gastric ulcers and wounds, and provides cardioprotective antioxidants.
+                </span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class='page-card-footer'>
+        <span>Tibb-an-Nabawi &amp; Modern Biomedical Science Monograph</span>
+        <span>
+          <span class='lang-bn'>- পৃষ্ঠা ১৪ / ২১ -</span>
+          <span class='lang-en'>- Page 14 / 21 -</span>
+        </span>
+      </div>
+    </article>
+
+    <!-- =========================================================================
+         [PASTE FINAL PAGES (PAGE 15 TO PAGE 21) BELOW THIS COMMENT IN NEXT STEP]
+         ========================================================================= -->
+
+       <!-- ==================== PAGE 15 / 21 (CORRESPONDS TO PDF PAGE 16: SECTION 8 TABLE PART 2) ==================== -->
+    <article class='monograph-page-card' id='page-15'>
+      <div class='page-card-topbar'>
+        <span>
+          <span class='lang-bn'>প্রতিরোধই সর্বোত্তম চিকিৎসা | TIBB-AN-NABAWI &amp; MODERN SCIENCE</span>
+          <span class='lang-en'>PREVENTION IS THE BEST CURE | TIBB-AN-NABAWI &amp; MODERN SCIENCE</span>
+        </span>
+        <span class='page-number-badge'>
+          <span class='lang-bn'>পৃষ্ঠা ১৫ / ২১</span>
+          <span class='lang-en'>Page 15 / 21</span>
+        </span>
+      </div>
+
+      <!-- Responsive Academic Table (Part 2: Olive Oil, Talbina, Ajwa Dates, Natural Vinegar - Matches PDF Page 16) -->
+      <div class='table-responsive' style='margin-top: 0; margin-bottom: 0;'>
+        <table class='monograph-table'>
+          <thead>
+            <tr>
+              <th style='width: 18%;'>
+                <span class='lang-bn'>খাদ্য উপাদান</span>
+                <span class='lang-en'>Prophetic Superfood</span>
+              </th>
+              <th style='width: 24%;'>
+                <span class='lang-bn'>কুরআন ও হাদিসের প্রামাণ্য সূত্র</span>
+                <span class='lang-en'>Scriptural Reference (Qur&#39;an &amp; Hadith)</span>
+              </th>
+              <th style='width: 24%;'>
+                <span class='lang-bn'>সক্রিয় জৈব-রাসায়নিক উপাদান (Bioactive Compounds)</span>
+                <span class='lang-en'>Active Bioactive Compounds</span>
+              </th>
+              <th style='width: 34%;'>
+                <span class='lang-bn'>বৈজ্ঞানিক ও ক্লিনিক্যাল উপকারিতা (Clinical Mechanisms)</span>
+                <span class='lang-en'>Clinical &amp; Pharmacological Mechanisms</span>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Row 3: Extra Virgin Olive Oil -->
+            <tr>
+              <td>
+                <strong class='lang-bn'>জয়তুন তেল</strong>
+                <strong class='lang-en'>Extra Virgin Olive Oil</strong><br/>
+                <em>(Olea europaea)</em>
+              </td>
+              <td>
+                <span class='lang-bn'>
+                  &quot;তোমরা জয়তুনের তেল খাও এবং তা শরীরে মাখো, কেননা এটি বরকতময় বৃক্ষ থেকে আগত।&quot;<br/>
+                  — <strong>সুনানে তিরমিজি: ১৮৫১</strong>
+                </span>
+                <span class='lang-en'>
+                  &quot;Eat olive oil and anoint yourselves with it, for it comes from a blessed tree.&quot;<br/>
+                  — <strong>Jami at-Tirmidhi: 1851</strong>
+                </span>
+              </td>
+              <td>
+                <strong>Oleocanthal</strong>,<br/>
+                Oleic Acid (MUFA), Hydroxytyrosol, Oleuropein
+              </td>
+              <td>
+                <span class='lang-bn'>
+                  ওলিওক্যান্থাল প্রাকৃতিক আইবুপ্রোফেনের মতো প্রদাহ কমায় (COX-1/COX-2 ইনহিবিটর), ক্ষতিকর কোলেস্টেরল (LDL) অক্সিডেশন রোধ করে, রক্তনালীর নমনীয়তা বাড়ায় এবং হৃদরোগ ও স্ট্রোক প্রতিরোধ করে।
+                </span>
+                <span class='lang-en'>
+                  Oleocanthal acts like natural ibuprofen to reduce inflammation (COX-1/COX-2 inhibitor), prevents harmful LDL cholesterol oxidation, improves arterial elasticity, and prevents heart disease and stroke.
+                </span>
+              </td>
+            </tr>
+
+            <!-- Row 4: Talbina (Barley Porridge) -->
+            <tr>
+              <td>
+                <strong class='lang-bn'>তালবিনা</strong>
+                <strong class='lang-en'>Talbina (Barley Porridge)</strong><br/>
+                <em>(Hordeum vulgare / যবের জাউ)</em>
+              </td>
+              <td>
+                <span class='lang-bn'>
+                  &quot;তালবিনা রোগীর হৃদয়কে প্রশান্তি দেয় এবং শোক ও বিষণ্ণতা দূর করে।&quot;<br/>
+                  — <strong>সহীহ বুখারী: ৫৪১৭</strong>
+                </span>
+                <span class='lang-en'>
+                  &quot;Talbina soothes the heart of the sick person and relieves some of his sorrow and grief.&quot;<br/>
+                  — <strong>Sahih Al-Bukhari: 5417</strong>
+                </span>
+              </td>
+              <td>
+                <strong>Beta-Glucan</strong>,<br/>
+                Soluble Fiber, Tryptophan, Magnesium, Zinc, B-Vitamins
+              </td>
+              <td>
+                <span class='lang-bn'>
+                  ট্রিপটোফ্যান অ্যামিনো অ্যাসিড মস্তিষ্কে <strong>Serotonin (Happy Neurotransmitter)</strong> সংশ্লেষণে সাহায্য করে যা ডিপ্রেশন ও উদ্বেগ কমায়; বিটা-গ্লুকান পিত্তরস শোষণ করে কোলেস্টেরল ও ব্লাড সুগার নিয়ন্ত্রণ করে।
+                </span>
+                <span class='lang-en'>
+                  Rich in the amino acid Tryptophan, which synthesizes <strong>Serotonin (the happiness neurotransmitter)</strong> in the brain to alleviate depression and anxiety; Beta-glucan binds bile acids to lower cholesterol and blood sugar.
+                </span>
+              </td>
+            </tr>
+
+            <!-- Row 5: Dates (Ajwa) -->
+            <tr>
+              <td>
+                <strong class='lang-bn'>খেজুর (আজওয়া)</strong>
+                <strong class='lang-en'>Ajwa &amp; Natural Dates</strong><br/>
+                <em>(Phoenix dactylifera)</em>
+              </td>
+              <td>
+                <span class='lang-bn'>
+                  সকালবেলা ৭টি আজওয়া খেজুর খেলে বিষ ও জাদু ক্ষতি করতে পারে না।<br/>
+                  — <strong>সহীহ বুখারী: ৫৪৪৫</strong>
+                </span>
+                <span class='lang-en'>
+                  &quot;Whoever eats seven Ajwa dates in the morning will not be harmed by poison or magic that day.&quot;<br/>
+                  — <strong>Sahih Al-Bukhari: 5445</strong>
+                </span>
+              </td>
+              <td>
+                <strong>Polyphenols</strong>,<br/>
+                Carotenoids, Potassium, Magnesium, Selenium, Dietary Fiber
+              </td>
+              <td>
+                <span class='lang-bn'>
+                  লিভারকে টক্সিন ও ভারী ধাতু থেকে মুক্ত করে (Hepatoprotective), হৃদপেশির সংকোচন-প্রসারণ নিয়ন্ত্রণ করে, তাৎক্ষণিক শক্তি জোগায় এবং মস্তিষ্কের অক্সিডেটিভ স্ট্রেস কমায়।
+                </span>
+                <span class='lang-en'>
+                  Protects the liver from toxins and heavy metals (Hepatoprotective), regulates myocardial contraction and blood pressure, provides rapid clean energy, and reduces cerebral oxidative stress.
+                </span>
+              </td>
+            </tr>
+
+            <!-- Row 6: Natural Vinegar -->
+            <tr>
+              <td>
+                <strong class='lang-bn'>প্রাকৃতিক ভিনেগার</strong>
+                <strong class='lang-en'>Natural Vinegar</strong><br/>
+                <em>(Apple Cider / Date Vinegar)</em>
+              </td>
+              <td>
+                <span class='lang-bn'>
+                  &quot;সিরকা (ভিনেগার) কতই না উত্তম তরকারি/খাদ্য উপাদান!&quot;<br/>
+                  — <strong>সহীহ মুসলিম: ২০৫২</strong>
+                </span>
+                <span class='lang-en'>
+                  &quot;What an excellent condiment/food seasoning is vinegar (Sirka)!&quot;<br/>
+                  — <strong>Sahih Muslim: 2052</strong>
+                </span>
+              </td>
+              <td>
+                <strong>Acetic Acid</strong>,<br/>
+                Catechin, Gallic Acid, Caffeic Acid, Probiotics
+              </td>
+              <td>
+                <span class='lang-bn'>
+                  খাবারের পর রক্তে গ্লুকোজের আকস্মিক বৃদ্ধি (Postprandial Glycemic Spike) ৩০% পর্যন্ত কমিয়ে দেয়, পাকস্থলীর অ্যাসিডিটি (HCl) ব্যালেন্স করে প্রোটিন হজমে সহায়তা করে এবং চর্বি জমতে দেয় না।
+                </span>
+                <span class='lang-en'>
+                  Reduces post-meal blood glucose surges (Postprandial Glycemic Spike) by up to 30%, balances gastric acidity (HCl) to aid protein digestion, improves AMPK activity, and prevents lipid accumulation.
+                </span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class='page-card-footer'>
+        <span>Tibb-an-Nabawi &amp; Modern Biomedical Science Monograph</span>
+        <span>
+          <span class='lang-bn'>- পৃষ্ঠা ১৫ / ২১ -</span>
+          <span class='lang-en'>- Page 15 / 21 -</span>
+        </span>
+      </div>
+    </article>
+
+    <!-- ==================== PAGE 16 / 21 (CORRESPONDS TO PDF PAGE 17: SECTION 9 INTRO & PHASES 1-2) ==================== -->
+    <article class='monograph-page-card' id='page-16'>
+      <div class='page-card-topbar'>
+        <span>
+          <span class='lang-bn'>প্রতিরোধই সর্বোত্তম চিকিৎসা | TIBB-AN-NABAWI &amp; MODERN SCIENCE</span>
+          <span class='lang-en'>PREVENTION IS THE BEST CURE | TIBB-AN-NABAWI &amp; MODERN SCIENCE</span>
+        </span>
+        <span class='page-number-badge'>
+          <span class='lang-bn'>পৃষ্ঠা ১৬ / ২১</span>
+          <span class='lang-en'>Page 16 / 21</span>
+        </span>
+      </div>
+
+      <!-- Exact Topic Anchor #sec-9 -->
+      <h2 class='section-heading' id='sec-9'>
+        <span class='lang-bn'>৯. আজীবন সুস্থতার জন্য ২৪ ঘণ্টার ব্যবহারিক রুটিন</span>
+        <span class='lang-en'>9. The Ultimate 24-Hour Daily Preventive Routine</span>
+      </h2>
+      <div class='section-subheading'>
+        THE ULTIMATE 24-HOUR DAILY PREVENTIVE &amp; LONGEVITY PROTOCOL
+      </div>
+
+      <p class='lang-bn' style='text-align: justify;'>
+        উপরোক্ত কুরআন, সুন্নাহ এবং বায়োমেডিকেল সায়েন্সের নীতিগুলোকে দৈনন্দিন জীবনে বাস্তবায়ন করার জন্য নিচে একটি পূর্ণাঙ্গ ও বিজ্ঞানসম্মত ২৪ ঘণ্টার প্রোটোকল সাজানো হলো:
+      </p>
+      <p class='lang-en' style='text-align: justify;'>
+        To translate the above principles of the Holy Qur&#39;an, Sunnah, and modern biomedical science into daily life, a complete, scientifically structured 24-hour longevity protocol is outlined below:
+      </p>
+
+      <!-- Phase 1: Dawn Phase -->
+      <div class='routine-phase'>
+        <div class='routine-phase-header'>
+          <h3 class='routine-phase-title'>
+            <span class='lang-bn'>১. ভোরের পর্ব: কর্টিসল জাগরণ ও সেলুলার ডিটক্স (Cortisol Awakening &amp; Detox)</span>
+            <span class='lang-en'>1. Dawn Phase: Cortisol Awakening &amp; Cellular Detox</span>
+          </h3>
+          <span class='routine-time-badge'>
+            <span class='lang-bn'>ভোর ৪:৩০ – সকাল ৬:৩০</span>
+            <span class='lang-en'>4:30 AM – 6:30 AM</span>
+          </span>
+        </div>
+        <ul class='monograph-list' style='margin-bottom: 0;'>
+          <li>
+            <span class='lang-bn'>
+              <strong>তাহাজ্জুদ ও ফজর:</strong> সুবহে সাদিকের পূর্বে ঘুম থেকে উঠেই প্রাকৃতিক মিসওয়াক দিয়ে দাঁত পরিষ্কার এবং সুন্নাহ পদ্ধতিতে ওযু করা (নাক ও মুখের জীবাণু নিষ্কাশন ও স্নায়ুতন্ত্রের জাগরণ)।
+            </span>
+            <span class='lang-en'>
+              <strong>Tahajjud &amp; Fajr:</strong> Waking up before true dawn (Subh Sadiq), cleaning the teeth with a natural Miswak, and performing Wudu according to the Sunnah (clearing nasal/oral pathogens and awakening the autonomic nervous system).
+            </span>
+          </li>
+          <li>
+            <span class='lang-bn'>
+              <strong>মর্নিং মেটাবলিক অ্যাক্টিভেশন:</strong> খালি পেটে ১ গ্লাস কুসুম গরম পানিতে ১ চামচ খাঁটি মধু অথবা ৭ দানা কালোজিরা চিবিয়ে খাওয়া (লিভারের বাইল ফ্লো ও মেটাবলিজম চালু করা)।
+            </span>
+            <span class='lang-en'>
+              <strong>Morning Metabolic Activation:</strong> Consuming 1 glass of lukewarm water mixed with 1 teaspoon of raw honey, or chewing 7 Black Seeds (Kalonji) on an empty stomach (stimulating hepatic bile flow and metabolic enzymes).
+            </span>
+          </li>
+          <li style='margin-bottom: 0;'>
+            <span class='lang-bn'>
+              <strong>সকালের প্রাকৃতিক আলো ও হাঁটা:</strong> ফজরের নামাজের পর সকাল-সন্ধ্যার মাসনুন দোয়া ও জিকির পাঠ (মানসিক বর্ম তৈরি)। এরপর ১৫-২০ মিনিট ভোরের মৃদু সূর্যালোকে দ্রুত হাঁটা (রেটিনার মাধ্যমে মস্তিষ্কের সার্কাডিয়ান ঘড়ি রিসেট করা এবং ভিটামিন-ডি সংশ্লেষণ)।
+            </span>
+            <span class='lang-en'>
+              <strong>Morning Sunlight &amp; Brisk Walk:</strong> After Fajr prayer, reciting the morning Masnun Duas and Dhikr (building a psychological resilience shield), followed by 15–20 minutes of brisk walking in gentle morning sunlight (resetting the brain&#39;s SCN circadian clock via retinal photoreceptors and synthesizing Vitamin D).
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Phase 2: Morning to Midday Phase -->
+      <div class='routine-phase' style='margin-bottom: 0;'>
+        <div class='routine-phase-header'>
+          <h3 class='routine-phase-title'>
+            <span class='lang-bn'>২. সকাল থেকে দুপুর: উচ্চ কর্মশক্তি ও কগনিটিভ পর্ব (High Energy &amp; Cognitive Phase)</span>
+            <span class='lang-en'>2. Morning to Midday: High Energy &amp; Cognitive Phase</span>
+          </h3>
+          <span class='routine-time-badge'>
+            <span class='lang-bn'>সকাল ৭:৩০ – দুপুর ২:৩০</span>
+            <span class='lang-en'>7:30 AM – 2:30 PM</span>
+          </span>
+        </div>
+        <ul class='monograph-list' style='margin-bottom: 0;'>
+          <li>
+            <span class='lang-bn'>
+              <strong>পুষ্টিকর সকালের নাস্তা:</strong> উচ্চমানের প্রোটিন, স্বাস্থ্যকর ফ্যাট (যেমন: দেশি ডিম, এক্সট্রা ভার্জিন অলিভ অয়েল, বাদাম) এবং জটিল শর্করা ও ফাইবার (লাল আটার রুটি বা যবের তালবিনা) সমৃদ্ধ নাস্তা। সাদা চিনি, পাউরুটি ও রিফাইন্ড কার্বোহাইড্রেট সম্পূর্ণ বর্জন।
+            </span>
+            <span class='lang-en'>
+              <strong>Nutrient-Dense Breakfast:</strong> A wholesome breakfast rich in clean protein, healthy fats (e.g., organic eggs, Extra Virgin Olive Oil, raw nuts), and complex fiber-rich carbohydrates (whole wheat flatbread or barley Talbina). Complete elimination of refined white sugar, white bread, and processed cereal.
+            </span>
+          </li>
+          <li>
+            <span class='lang-bn'>
+              <strong>অ্যাক্টিভ ওয়ার্কিং:</strong> কর্মক্ষেত্রে টানা বসে না থেকে প্রতি ৪৫-৫০ মিনিট পর পর ৫ মিনিট হাঁটা বা হালকা স্ট্রেচিং করা (রক্ত সঞ্চালন ও ইনসুলিন সংবেদনশীলতা সচল রাখা)।
+            </span>
+            <span class='lang-en'>
+              <strong>Active Working Rhythm:</strong> Avoiding prolonged uninterrupted sitting at work by standing up for 5 minutes of walking or light stretching every 45–50 minutes (maintaining vascular circulation and muscular insulin sensitivity).
+            </span>
+          </li>
+          <li style='margin-bottom: 0;'>
+            <span class='lang-bn'>
+              <strong>কাইলুলাহ (Power Nap):</strong> জোহরের নামাজের পর দুপুরের খাবার খেয়ে (অথবা খাওয়ার পূর্বে) ২০ থেকে ২৫ মিনিটের সংক্ষিপ্ত নিদ্রা বা বিশ্রাম নেওয়া (মস্তিষ্কের ক্লান্তি দূর ও হৃদপিণ্ডের বিশ্রাম)।
+            </span>
+            <span class='lang-en'>
+              <strong>Qailulah (Midday Power Nap):</strong> Taking a brief 20–25 minute rest or nap around Dhuhr prayer (either before or after a light lunch) to clear cerebral adenosine fatigue and rest the cardiovascular system.
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <div class='page-card-footer'>
+        <span>Tibb-an-Nabawi &amp; Modern Biomedical Science Monograph</span>
+        <span>
+          <span class='lang-bn'>- পৃষ্ঠা ১৬ / ২১ -</span>
+          <span class='lang-en'>- Page 16 / 21 -</span>
+        </span>
+      </div>
+    </article>
+
+    <!-- ==================== PAGE 17 / 21 (CORRESPONDS TO PDF PAGE 18: ROUTINE PHASES 3 & 4) ==================== -->
+    <article class='monograph-page-card' id='page-17'>
+      <div class='page-card-topbar'>
+        <span>
+          <span class='lang-bn'>প্রতিরোধই সর্বোত্তম চিকিৎসা | TIBB-AN-NABAWI &amp; MODERN SCIENCE</span>
+          <span class='lang-en'>PREVENTION IS THE BEST CURE | TIBB-AN-NABAWI &amp; MODERN SCIENCE</span>
+        </span>
+        <span class='page-number-badge'>
+          <span class='lang-bn'>পৃষ্ঠা ১৭ / ২১</span>
+          <span class='lang-en'>Page 17 / 21</span>
+        </span>
+      </div>
+
+      <!-- Phase 3: Afternoon to Evening Phase -->
+      <div class='routine-phase' style='margin-top: 0;'>
+        <div class='routine-phase-header'>
+          <h3 class='routine-phase-title'>
+            <span class='lang-bn'>৩. বিকেল থেকে সন্ধ্যা: শারীরিক কন্ডিশনিং ও আর্লি ডিনার (Conditioning &amp; Metabolic Rest)</span>
+            <span class='lang-en'>3. Afternoon to Evening: Physical Conditioning &amp; Metabolic Rest</span>
+          </h3>
+          <span class='routine-time-badge'>
+            <span class='lang-bn'>বিকেল ৪:০০ – সন্ধ্যা ৭:৩০</span>
+            <span class='lang-en'>4:00 PM – 7:30 PM</span>
+          </span>
+        </div>
+        <ul class='monograph-list' style='margin-bottom: 0;'>
+          <li>
+            <span class='lang-bn'>
+              <strong>বিকেলের শরীরচর্চা:</strong> আসরের নামাজের পর ৩০-৪০ মিনিট ঘাম ঝরানো ব্যায়াম, রেজিস্ট্যান্স ট্রেনিং বা বডিওয়েট এক্সারসাইজ (বয়স বাড়ার সাথে পেশির ক্ষয় বা <em>Sarcopenia</em> রোধ করতে) অথবা দ্রুত হাঁটা।
+            </span>
+            <span class='lang-en'>
+              <strong>Afternoon Exercise:</strong> Engaging in 30–40 minutes of sweat-inducing exercise, resistance training, bodyweight workouts (to prevent age-related muscle loss or <em>Sarcopenia</em>), or brisk walking after Asr prayer.
+            </span>
+          </li>
+          <li style='margin-bottom: 0;'>
+            <span class='lang-bn'>
+              <strong>রাতের খাবার (Early Time-Restricted Dinner):</strong> মাগরিবের পর পরই (ঘুমানোর অন্তত ৩ ঘণ্টা আগে, সন্ধ্যা ৭টা থেকে ৭:৩০-এর মধ্যে) রাতের খাবার শেষ করা। খাবারের প্লেটে অর্ধেক আঁশযুক্ত শাকসবজি ও সালাদ (অলিভ অয়েল ও সামান্য অ্যাপল সাইডার ভিনেগারসহ), এক-চতুর্থাংশ প্রোটিন (মাছ/মাংস/ডাল) এবং এক-চতুর্থাংশ কার্বোহাইড্রেট রাখা। পেটের এক-তৃতীয়াংশ খালি রেখে খাওয়া শেষ করা।
+            </span>
+            <span class='lang-en'>
+              <strong>Early Time-Restricted Dinner:</strong> Completing dinner shortly after Maghrib prayer (at least 3 hours before sleep, between 7:00 PM and 7:30 PM). Structure the dinner plate with half fibrous vegetables/salad (dressed with olive oil and a splash of apple cider vinegar), one-quarter clean protein (fish/meat/lentils), and one-quarter complex carbohydrates—stopping while one-third of the stomach remains empty.
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Phase 4: Night Phase -->
+      <div class='routine-phase' style='margin-bottom: 0;'>
+        <div class='routine-phase-header'>
+          <h3 class='routine-phase-title'>
+            <span class='lang-bn'>৪. রাত্রির পর্ব: মেলাটোনিন নিঃসরণ ও কোষীয় মেরামত (Melatonin &amp; Deep Repair)</span>
+            <span class='lang-en'>4. Night Phase: Melatonin Secretion &amp; Deep Cellular Repair</span>
+          </h3>
+          <span class='routine-time-badge'>
+            <span class='lang-bn'>রাত ৮:৩০ – রাত ১০:০০</span>
+            <span class='lang-en'>8:30 PM – 10:00 PM</span>
+          </span>
+        </div>
+        <ul class='monograph-list' style='margin-bottom: 0;'>
+          <li>
+            <span class='lang-bn'>
+              <strong>ডিজিটাল ডিটক্স (Blue Light Blockade):</strong> এশার নামাজের পর মোবাইল ফোন, টিভি ও ল্যাপটপের নীল আলো থেকে সম্পূর্ণ দূরে থাকা এবং ঘরের আলো কমিয়ে দেওয়া (পিনিয়াল গ্রন্থি থেকে মেলাটোনিন নিঃসরণ নিশ্চিত করতে)।
+            </span>
+            <span class='lang-en'>
+              <strong>Digital Detox (Blue Light Blockade):</strong> Completely disconnecting from smartphones, television, and laptop screens after Isha prayer and dimming household lights (ensuring unimpeded Melatonin secretion from the pineal gland).
+            </span>
+          </li>
+          <li style='margin-bottom: 0;'>
+            <span class='lang-bn'>
+              <strong>সুন্নাহ নিদ্রা প্রস্তুতি:</strong> বিছানা ঝেড়ে, ওযু অবস্থায়, ডান কাত হয়ে (হৃদপিণ্ডের ওপর চাপ কমাতে এবং পাকস্থলীর নিষ্কাশন বা Gastric Emptying সহজ করতে সুন্নাহ পদ্ধতি) সূরা মুলক, আয়াতুল কুরসি ও তিন কুল পাঠ করে রাত ১০টার মধ্যে গভীর ঘুমে চলে যাওয়া।
+            </span>
+            <span class='lang-en'>
+              <strong>Sunnah Sleep Preparation:</strong> Dusting off the bed, performing Wudu, lying on the right side (the Sunnah posture that reduces mechanical pressure on the heart and facilitates smooth Gastric Emptying), reciting Surah Al-Mulk, Ayat al-Kursi, and the three Quls, and entering deep sleep by 10:00 PM.
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <div class='page-card-footer'>
+        <span>Tibb-an-Nabawi &amp; Modern Biomedical Science Monograph</span>
+        <span>
+          <span class='lang-bn'>- পৃষ্ঠা ১৭ / ২১ -</span>
+          <span class='lang-en'>- Page 17 / 21 -</span>
+        </span>
+      </div>
+    </article>
+
+    <!-- ==================== PAGE 18 / 21 (CORRESPONDS TO PDF PAGE 19: PHASE 5 & SECTION 10 INTRO) ==================== -->
+    <article class='monograph-page-card' id='page-18'>
+      <div class='page-card-topbar'>
+        <span>
+          <span class='lang-bn'>প্রতিরোধই সর্বোত্তম চিকিৎসা | TIBB-AN-NABAWI &amp; MODERN SCIENCE</span>
+          <span class='lang-en'>PREVENTION IS THE BEST CURE | TIBB-AN-NABAWI &amp; MODERN SCIENCE</span>
+        </span>
+        <span class='page-number-badge'>
+          <span class='lang-bn'>পৃষ্ঠা ১৮ / ২১</span>
+          <span class='lang-en'>Page 18 / 21</span>
+        </span>
+      </div>
+
+      <!-- Phase 5: Periodic Bio-Reset Protocol -->
+      <div class='routine-phase' style='margin-top: 0;'>
+        <div class='routine-phase-header'>
+          <h3 class='routine-phase-title'>
+            <span class='lang-bn'>৫. সাপ্তাহিক ও মাসিক বায়ো-রিসেট প্রোটোকল (Periodic Cellular &amp; Systemic Detox)</span>
+            <span class='lang-en'>5. Weekly &amp; Monthly Bio-Reset Protocol (Periodic Systemic Detox)</span>
+          </h3>
+          <span class='routine-time-badge'>
+            <span class='lang-bn'>সাপ্তাহিক / মাসিক / ঋতুভিত্তিক</span>
+            <span class='lang-en'>Weekly / Monthly / Seasonal</span>
+          </span>
+        </div>
+        <ul class='monograph-list' style='margin-bottom: 0;'>
+          <li>
+            <span class='lang-bn'>
+              <strong>সুন্নাহ রোজা (Autophagy Trigger):</strong> প্রতি সপ্তাহে সোমবার ও বৃহস্পতিবার এবং প্রতি হিজরি মাসের ১৩, ১৪ ও ১৫ তারিখে (আইয়ামে বিজ) রোজা রেখে শরীরের অটোফ্যাজি ও ইনসুলিন সংবেদনশীলতা শতভাগ রিসেট করা।
+            </span>
+            <span class='lang-en'>
+              <strong>Sunnah Fasting (Autophagy Trigger):</strong> Observing fasts on Mondays and Thursdays every week and on the 13th, 14th, and 15th of each Hijri month (Ayyam al-Beed) to fully reset cellular autophagy and insulin sensitivity.
+            </span>
+          </li>
+          <li style='margin-bottom: 0;'>
+            <span class='lang-bn'>
+              <strong>হিজামা বা ওয়েট কাপিং থেরাপি (Hijama / Wet Cupping):</strong> সুন্নাহ অনুযায়ী ঋতু পরিবর্তনের সময় বা প্রয়োজনে অভিজ্ঞ মেডিকেল থেরাপিস্টের মাধ্যমে হিজামা নেওয়া (সহীহ বুখারী: ৫৬৯৬)। আধুনিক গবেষণায় দেখা গেছে, হিজামা ত্বকের নিচের ক্যাপিলারি নেটওয়ার্ক থেকে ইন্টারস্টিশিয়াল ফ্লুইডের টক্সিন, মৃত লোহিত কণিকা, ফেরিটিন, ইউরিক অ্যাসিড এবং প্রদাহজনক সাইটোকাইন (Inflammatory Cytokines) বের করে দেয় এবং নাইট্রিক অক্সাইড বাড়িয়ে রক্ত সঞ্চালন উন্নত করে।
+            </span>
+            <span class='lang-en'>
+              <strong>Hijama or Wet Cupping Therapy:</strong> Undergoing Hijama therapy through a qualified medical practitioner during seasonal transitions or as needed (Sahih Al-Bukhari: 5696). Modern clinical studies show that Hijama clears stagnant interstitial toxins, senescent red blood cells, excess ferritin, uric acid, and pro-inflammatory cytokines from subcutaneous capillary networks while boosting local Nitric Oxide and microcirculation.
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <hr style='border: 0; border-top: 1px dashed var(--border-color); margin: 22px 0;'/>
+
+      <!-- Exact Topic Anchor #sec-10 -->
+      <h2 class='section-heading' id='sec-10'>
+        <span class='lang-bn'>১০. কঠোরভাবে বর্জনীয় তালিকা (নীরব ঘাতকসমূহ)</span>
+        <span class='lang-en'>10. The Strict Avoidance List (Silent Metabolic Killers)</span>
+      </h2>
+      <div class='section-subheading'>
+        THE STRICT AVOIDANCE LIST FOR CHRONIC DISEASE PREVENTION
+      </div>
+
+      <p class='lang-bn' style='text-align: justify;'>
+        প্রতিরোধমূলক চিকিৎসাবিজ্ঞানের মূল সূত্র হলো—শরীরে উপকারী উপাদান প্রবেশের পূর্বে ক্ষতিকর উপাদান (Toxins &amp; Pro-inflammatory Agents) প্রবেশ বন্ধ করতে হবে। সুস্থ থাকতে হলে নিচের নীরব ঘাতকগুলোকে জীবন থেকে স্থায়ীভাবে বর্জন করতে হবে:
+      </p>
+      <p class='lang-en' style='text-align: justify;'>
+        The cardinal rule of preventive medicine is that before introducing beneficial nutrients into the body, the influx of harmful toxins and pro-inflammatory agents must be halted. To maintain lifelong health, the following silent killers must be permanently eliminated:
+      </p>
+
+      <div class='callout-danger' style='margin-bottom: 0;'>
+        <span class='callout-label'>
+          <span class='lang-bn'>আধুনিক যুগের ৫টি প্রধান মেটাবলিক বিষ (Top 5 Metabolic &amp; Cellular Toxins)</span>
+          <span class='lang-en'>Top 5 Modern Metabolic &amp; Cellular Toxins</span>
+        </span>
+        <ol class='monograph-list' style='margin-bottom: 0;'>
+          <li style='margin-bottom: 0;'>
+            <span class='lang-bn'>
+              <strong>১. রিফাইন্ড সুগার ও হাই-ফ্রুক্টোজ কর্ন সিরাপ (Refined Sugar &amp; HFCS):</strong> সাদা চিনি, কোমল পানীয় (Soft Drinks), এনার্জি ড্রিংকস, মিষ্টি ও প্যাকেটজাত জুস। এগুলো সরাসরি লিভারে গিয়ে চর্বি হিসেবে জমা হয় (De Novo Lipogenesis), ফ্যাটি লিভার তৈরি করে, গ্লাইকেশন (AGEs) ঘটিয়ে ত্বক ও অঙ্গপ্রত্যঙ্গের বার্ধক্য আনে এবং ক্যান্সার কোষের প্রধান জ্বালানি হিসেবে কাজ করে (Warburg Effect)।
+            </span>
+            <span class='lang-en'>
+              <strong>1. Refined Sugar &amp; High-Fructose Corn Syrup (HFCS):</strong> White table sugar, carbonated soft drinks, energy drinks, commercial sweets, and packaged fruit juices. These travel directly to the liver and convert into fat (<em>De Novo Lipogenesis</em>), causing Non-Alcoholic Fatty Liver Disease, accelerating tissue aging via Advanced Glycation End-products (AGEs), and serving as primary metabolic fuel for cancer cells (the <em>Warburg Effect</em>).
+            </span>
+          </li>
+        </ol>
+      </div>
+
+      <div class='page-card-footer'>
+        <span>Tibb-an-Nabawi &amp; Modern Biomedical Science Monograph</span>
+        <span>
+          <span class='lang-bn'>- পৃষ্ঠা ১৮ / ২১ -</span>
+          <span class='lang-en'>- Page 18 / 21 -</span>
+        </span>
+      </div>
+    </article>
+
+    <!-- ==================== PAGE 19 / 21 (CORRESPONDS TO PDF PAGE 20: TOXINS 2-5 & SECTION 11 INTRO) ==================== -->
+    <article class='monograph-page-card' id='page-19'>
+      <div class='page-card-topbar'>
+        <span>
+          <span class='lang-bn'>প্রতিরোধই সর্বোত্তম চিকিৎসা | TIBB-AN-NABAWI &amp; MODERN SCIENCE</span>
+          <span class='lang-en'>PREVENTION IS THE BEST CURE | TIBB-AN-NABAWI &amp; MODERN SCIENCE</span>
+        </span>
+        <span class='page-number-badge'>
+          <span class='lang-bn'>পৃষ্ঠা ১৯ / ২১</span>
+          <span class='lang-en'>Page 19 / 21</span>
+        </span>
+      </div>
+
+      <div class='callout-danger' style='margin-top: 0;'>
+        <ol class='monograph-list' start='2' style='margin: 0;'>
+          <li>
+            <span class='lang-bn'>
+              <strong>২. ইন্ডাস্ট্রিয়াল সিড অয়েল ও ট্রান্স ফ্যাট (Refined Seed Oils &amp; Trans Fats):</strong> পরিশোধিত সয়াবিন তেল, রাইস ব্র্যান অয়েল, সানফ্লাওয়ার অয়েল, ডালডা ও বেকারির মার্জারিন। এগুলোতে অতিরিক্ত <em>Omega-6 Linoleic Acid</em> থাকে, যা কোষের মেমব্রেনে অক্সিডেটিভ স্ট্রেস ও রক্তনালীতে মারাত্মক প্রদাহ (Endothelial Inflammation) তৈরি করে। <strong>নিরাপদ বিকল্প:</strong> ঘানি ভাঙা খাঁটি সরিষার তেল, এক্সট্রা ভার্জিন অলিভ অয়েল, দেশি ঘি ও খাঁটি মাখন।
+            </span>
+            <span class='lang-en'>
+              <strong>2. Industrial Seed Oils &amp; Trans Fats:</strong> Refined soybean oil, rice bran oil, sunflower oil, hydrogenated vegetable shortening (Dalda), and commercial bakery margarine. These contain excessive <em>Omega-6 Linoleic Acid</em>, which embeds into cellular membranes to trigger severe oxidative stress and arterial <em>Endothelial Inflammation</em>. <strong>Safe Alternatives:</strong> Cold-pressed pure mustard oil, Extra Virgin Olive Oil, organic Ghee, and natural butter.
+            </span>
+          </li>
+          <li>
+            <span class='lang-bn'>
+              <strong>৩. আল্ট্রা-প্রসেসড ফুড ও সাদা ময়দা (Ultra-Processed Foods):</strong> ফাস্টফুড, ইনস্ট্যান্ট নুডলস, চিপস, সাদা পাউরুটি ও কৃত্রিম প্রিজারভেটিভযুক্ত খাবার, যা অন্ত্রের উপকারী ব্যাকটেরিয়া ধ্বংস করে এবং কোলন ক্যান্সারের ঝুঁকি বাড়ায়।
+            </span>
+            <span class='lang-en'>
+              <strong>3. Ultra-Processed Foods &amp; Refined White Flour:</strong> Commercial fast food, instant noodles, packaged chips, white bread, and foods loaded with synthetic preservatives, emulsifiers, and artificial flavors—which decimate beneficial gut flora and markedly elevate the risk of colorectal cancer.
+            </span>
+          </li>
+          <li>
+            <span class='lang-bn'>
+              <strong>৪. মাদক, ধূমপান ও তামাকজাত দ্রব্য:</strong> ইসলামে সকল প্রকার নেশাদ্রব্য ও শরীরের জন্য ধ্বংসাত্মক বস্তু হারাম। ধূমপান সরাসরি ফুসফুস, হৃদপিণ্ড ও ডিএনএ-এর স্থায়ী ক্ষতি সাধন করে।
+            </span>
+            <span class='lang-en'>
+              <strong>4. Intoxicants, Smoking &amp; Tobacco Products:</strong> All intoxicants and self-destructive substances are strictly Haram in Islam. Smoking and tobacco use inflict direct, irreversible damage upon lung alveoli, vascular endothelium, cardiac muscle, and cellular DNA.
+            </span>
+          </li>
+          <li style='margin-bottom: 0;'>
+            <span class='lang-bn'>
+              <strong>৫. ক্রনিক রাত্রিজাগরণ ও স্ক্রিন অ্যাডিকশন:</strong> রাত ১১টার পর জেগে থাকা এবং বিছানায় শুয়ে স্ক্রলিং করা শরীরের হরমোনাল ও ইমিউন সিস্টেমকে ভেতর থেকে ভেঙে দেয়।
+            </span>
+            <span class='lang-en'>
+              <strong>5. Chronic Late-Night Wakefulness &amp; Screen Addiction:</strong> Staying awake past 11:00 PM and scrolling on backlit screens in bed shatters the body&#39;s circadian neuro-endocrine axis and suppresses innate immune surveillance from within.
+            </span>
+          </li>
+        </ol>
+      </div>
+
+      <hr style='border: 0; border-top: 1px dashed var(--border-color); margin: 22px 0;'/>
+
+      <!-- Exact Topic Anchor #sec-11 -->
+      <h2 class='section-heading' id='sec-11'>
+        <span class='lang-bn'>১১. ক্লিনিক্যাল ইনফোগ্রাফিক ও সেলফ-অ্যাসেসমেন্ট ড্যাশবোর্ড</span>
+        <span class='lang-en'>11. Clinical Infographic &amp; Self-Assessment Dashboard</span>
+      </h2>
+      <div class='section-subheading' style='margin-bottom: 0;'>
+        BIO-RHYTHM VISUALIZER, AUTOPHAGY TIMELINE &amp; DAILY PREVENTIVE HEALTH SCORE
+      </div>
+
+      <div class='page-card-footer'>
+        <span>Tibb-an-Nabawi &amp; Modern Biomedical Science Monograph</span>
+        <span>
+          <span class='lang-bn'>- পৃষ্ঠা ১৯ / ২১ -</span>
+          <span class='lang-en'>- Page 19 / 21 -</span>
+        </span>
+      </div>
+    </article>
+
+    <!-- ==================== PAGE 20 / 21 (CORRESPONDS TO PDF PAGE 21: BIO-CLOCK & AUTOPHAGY TIMELINE) ==================== -->
+    <article class='monograph-page-card' id='page-20'>
+      <div class='page-card-topbar'>
+        <span>
+          <span class='lang-bn'>প্রতিরোধই সর্বোত্তম চিকিৎসা | TIBB-AN-NABAWI &amp; MODERN SCIENCE</span>
+          <span class='lang-en'>PREVENTION IS THE BEST CURE | TIBB-AN-NABAWI &amp; MODERN SCIENCE</span>
+        </span>
+        <span class='page-number-badge'>
+          <span class='lang-bn'>পৃষ্ঠা ২০ / ২১</span>
+          <span class='lang-en'>Page 20 / 21</span>
+        </span>
+      </div>
+
+      <!-- 1. INTERACTIVE 24-HOUR CIRCADIAN BIO-CLOCK -->
+      <div class='infographic-section-box' style='margin-top: 0;'>
+        <h3 class='infographic-box-title'>
+          <span>🕒</span>
+          <span class='lang-bn'>২৪-ঘণ্টা সার্কাডিয়ান বায়ো-ক্লক (যেকোনো পর্বে ট্যাপ করুন)</span>
+          <span class='lang-en'>24-Hour Circadian Bio-Clock (Tap Any Phase to Explore)</span>
+        </h3>
+
+        <div class='bio-clock-tabs'>
+          <button class='bio-tab-btn active' onclick='switchBioClock(1)' type='button'>
+            <span class='lang-bn'>🌅 ভোর (৪:৩০ - ৬:৩০)</span>
+            <span class='lang-en'>🌅 Dawn (4:30 - 6:30)</span>
+          </button>
+          <button class='bio-tab-btn' onclick='switchBioClock(2)' type='button'>
+            <span class='lang-bn'>&#9728;&#65039; দিন (৭:৩০ - ২:৩০)</span>
+            <span class='lang-en'>&#9728;&#65039; Day (7:30 - 2:30)</span>
+          </button>
+          <button class='bio-tab-btn' onclick='switchBioClock(3)' type='button'>
+            <span class='lang-bn'>🏃 বিকেল (৪:০০ - ৭:৩০)</span>
+            <span class='lang-en'>🏃 Afternoon (4:00 - 7:30)</span>
+          </button>
+          <button class='bio-tab-btn' onclick='switchBioClock(4)' type='button'>
+            <span class='lang-bn'>🌙 রাত্রি (৮:৩০ - ১০:০০)</span>
+            <span class='lang-en'>🌙 Night (8:30 - 10:00)</span>
+          </button>
+        </div>
+
+        <!-- Panel 1: Dawn -->
+        <div class='bio-clock-panel active' id='bio-panel-1'>
+          <span class='bio-metric-pill'>Cortisol Awakening Response &#8593;</span>
+          <span class='bio-metric-pill'>Nitric Oxide &amp; Dopamine &#8593;</span>
+          <span class='bio-metric-pill'>Hepatic Detoxification</span>
+          <p class='lang-bn' style='margin: 4px 0 0 0;'>
+            <strong>নববী আমল ও বায়োলজি:</strong> তাহাজ্জুদ, মিসওয়াক, ওযু, ফজরের সালাত এবং ভোরের রোদে হাঁটা। এই সময়ে রেটিনায় সূর্যালোক প্রবেশ করলে মস্তিষ্কের <em>Suprachiasmatic Nucleus (SCN)</em> ঘড়ি রিসেট হয়, শরীরে প্রাকৃতিক কর্টিসল ও ডোপামিন নিঃসৃত হয়ে সারাদিনের কর্মশক্তি ও মানসিক প্রশান্তি নিশ্চিত করে। খালি পেটে মধু বা কালোজিরা লিভারের বাইল প্রবাহ সক্রিয় করে।
+          </p>
+          <p class='lang-en' style='margin: 4px 0 0 0;'>
+            <strong>Prophetic Practice &amp; Biology (Dawn Phase):</strong> Tahajjud, Miswak, Wudu, Fajr Salah, and walking in early morning sunlight. When natural morning light enters the retina during this window, it resets the brain&#39;s <em>Suprachiasmatic Nucleus (SCN)</em> master clock, triggering natural cortisol and dopamine release to ensure sustained daytime energy and mental serenity. Raw honey or black seed on an empty stomach activates hepatic bile flow.
+          </p>
+        </div>
+
+        <!-- Panel 2: Midday -->
+        <div class='bio-clock-panel' id='bio-panel-2'>
+          <span class='bio-metric-pill'>Cognitive Alertness Peak &#8593;</span>
+          <span class='bio-metric-pill'>Adenosine Clearance (Qailulah)</span>
+          <span class='bio-metric-pill'>Cardioprotection (+37%)</span>
+          <p class='lang-bn' style='margin: 4px 0 0 0;'>
+            <strong>নববী আমল ও বায়োলজি:</strong> প্রোটিন ও ফাইবারসমৃদ্ধ সকালের নাস্তা (যবের তালবিনা/লাল আটা/অলিভ অয়েল) এবং জোহরের পর ২০-২৫ মিনিটের <em>কাইলুলাহ (Power Nap)</em>। কাইলুলাহ মস্তিষ্কের ক্লান্তিকর অ্যাডেনোসিন দূর করে মনোযোগ ৫৪% বৃদ্ধি করে এবং হৃদরোগের ঝুঁকি ৩৭% হ্রাস করে।
+          </p>
+          <p class='lang-en' style='margin: 4px 0 0 0;'>
+            <strong>Prophetic Practice &amp; Biology (Day Phase):</strong> Nutrient-dense breakfast (Barley Talbina, whole grains, olive oil, protein) and a 20–25 minute <em>Qailulah (Power Nap)</em> around Dhuhr. Qailulah clears cerebral adenosine accumulation, boosting cognitive focus by 54% and lowering coronary heart disease risk by 37%.
+          </p>
+        </div>
+
+        <!-- Panel 3: Afternoon/Evening -->
+        <div class='bio-clock-panel' id='bio-panel-3'>
+          <span class='bio-metric-pill'>BDNF &amp; Muscle Synthesis &#8593;</span>
+          <span class='bio-metric-pill'>1/3rd Gastric Partition</span>
+          <span class='bio-metric-pill'>Insulin Sensitivity &#8593;</span>
+          <p class='lang-bn' style='margin: 4px 0 0 0;'>
+            <strong>নববী আমল ও বায়োলজি:</strong> আসরের পর দ্রুত হাঁটা বা শরীরচর্চা এবং মাগরিবের পর পরই রাতের খাবার শেষ করা (পাকস্থলীর ১/৩ অংশ খালি রেখে)। বিকেলে শরীরের তাপমাত্রা ও পেশির নমনীয়তা সর্বোচ্চ থাকে, যা ব্যায়ামের মাধ্যমে মস্তিষ্কে <em>BDNF</em> বাড়ায়। আর্লি ডিনার রাতে অ্যাসিড রিফ্লাক্স ও ইনসুলিন স্পাইক প্রতিরোধ করে।
+          </p>
+          <p class='lang-en' style='margin: 4px 0 0 0;'>
+            <strong>Prophetic Practice &amp; Biology (Afternoon Phase):</strong> Brisk walking or resistance exercise after Asr, and completing an early dinner shortly after Maghrib (observing the 1/3rd stomach rule). Core body temperature and muscular flexibility peak in the late afternoon, maximizing exercise-induced <em>BDNF</em>. Early dinner prevents nocturnal acid reflux and glycemic spikes.
+          </p>
+        </div>
+
+        <!-- Panel 4: Night -->
+        <div class='bio-clock-panel' id='bio-panel-4'>
+          <span class='bio-metric-pill'>Pineal Melatonin Peak &#8593;</span>
+          <span class='bio-metric-pill'>Glymphatic Brain Wash (10x)</span>
+          <span class='bio-metric-pill'>Cellular Repair</span>
+          <p class='lang-bn' style='margin: 4px 0 0 0;'>
+            <strong>নববী আমল ও বায়োলজি:</strong> এশার পর অহেতুক রাত না জাগা, স্ক্রিনের নীল আলো বর্জন এবং ওযু অবস্থায় ডান কাত হয়ে রাত ১০টার মধ্যে নিদ্রা। রাতের প্রথম প্রহরের গভীর ঘুমে পিনিয়াল গ্রন্থি থেকে মেলাটোনিন নিঃসৃত হয় এবং মস্তিষ্কের <em>Glymphatic System</em> ১০ গুণ সক্রিয় হয়ে আলঝেইমার্স সৃষ্টিকারী <em>Beta-Amyloid</em> বিষাক্ত বর্জ্য ধুয়ে পরিষ্কার করে।
+          </p>
+          <p class='lang-en' style='margin: 4px 0 0 0;'>
+            <strong>Prophetic Practice &amp; Biology (Night Phase):</strong> Avoiding late-night wakefulness after Isha, blocking blue screen light, and sleeping on the right side in a state of Wudu by 10:00 PM. Early slow-wave deep sleep maximizes pineal Melatonin secretion and activates the cerebral <em>Glymphatic System</em> tenfold to flush out neurotoxic <em>Beta-Amyloid</em> plaques.
+          </p>
+        </div>
+      </div>
+
+      <!-- 2. AUTOPHAGY & METABOLIC FASTING TIMELINE INFOGRAPHIC -->
+      <div class='infographic-section-box' style='margin-bottom: 0;'>
+        <h3 class='infographic-box-title'>
+          <span>🧬</span>
+          <span class='lang-bn'>সুন্নাহ রোজা ও অটোফ্যাজি বায়ো-টাইমলাইন (কোষীয় পুনর্গঠন গ্রাফ)</span>
+          <span class='lang-en'>Sunnah Fasting &amp; Autophagy Bio-Timeline (Cellular Regeneration Graph)</span>
+        </h3>
+
+        <div class='fasting-stage-row'>
+          <div class='fasting-stage-header'>
+            <span class='lang-bn'>০ – ৪ ঘণ্টা: অ্যানাবলিক ও পরিপাক পর্ব (Postprandial Digestion)</span>
+            <span class='lang-en'>0 – 4 Hours: Anabolic &amp; Postprandial Digestion Phase</span>
+            <span>25%</span>
+          </div>
+          <div class='fasting-bar-track'><div class='fasting-bar-fill' style='width: 25%;'/></div>
+        </div>
+
+        <div class='fasting-stage-row'>
+          <div class='fasting-stage-header'>
+            <span class='lang-bn'>৪ – ১২ ঘণ্টা: ইনসুলিন হ্রাস ও গ্লাইকোজেন ব্যবহার (Glycogen Depletion &amp; Lipolysis)</span>
+            <span class='lang-en'>4 – 12 Hours: Insulin Reduction, Glycogen Depletion &amp; Lipolysis</span>
+            <span>55%</span>
+          </div>
+          <div class='fasting-bar-track'><div class='fasting-bar-fill' style='width: 55%;'/></div>
+        </div>
+
+        <div class='fasting-stage-row'>
+          <div class='fasting-stage-header'>
+            <span class='lang-bn'>১২ – ১৬ ঘণ্টা: অটোফ্যাজি ও গ্রোথ হরমোন (HGH) সক্রিয়করণ (Cellular Self-Cleansing)</span>
+            <span class='lang-en'>12 – 16 Hours: Autophagy Activation &amp; Human Growth Hormone (HGH) Surge</span>
+            <span>85%</span>
+          </div>
+          <div class='fasting-bar-track'><div class='fasting-bar-fill' style='width: 85%;'/></div>
+        </div>
+
+        <div class='fasting-stage-row' style='margin-bottom: 0;'>
+          <div class='fasting-stage-header'>
+            <span class='lang-bn'>১৬ – ২৪ ঘণ্টা: স্টেম সেল পুনর্গঠন ও গভীর ডিটক্স (Stem Cell Regeneration &amp; AMPK Peak)</span>
+            <span class='lang-en'>16 – 24 Hours: Deep Cellular Detox, Stem Cell Regeneration &amp; AMPK Peak</span>
+            <span>100%</span>
+          </div>
+          <div class='fasting-bar-track'><div class='fasting-bar-fill' style='width: 100%;'/></div>
+        </div>
+      </div>
+
+      <div class='page-card-footer'>
+        <span>Tibb-an-Nabawi &amp; Modern Biomedical Science Monograph</span>
+        <span>
+          <span class='lang-bn'>- পৃষ্ঠা ২০ / ২১ -</span>
+          <span class='lang-en'>- Page 20 / 21 -</span>
+        </span>
+      </div>
+    </article>
+
+    <!-- ==================== PAGE 21 / 21 (CORRESPONDS TO PDF PAGE 22: HEALTH SCORE CHECKLIST & COLOPHON) ==================== -->
+    <article class='monograph-page-card' id='page-21'>
+      <div class='page-card-topbar'>
+        <span>
+          <span class='lang-bn'>প্রতিরোধই সর্বোত্তম চিকিৎসা | TIBB-AN-NABAWI &amp; MODERN SCIENCE</span>
+          <span class='lang-en'>PREVENTION IS THE BEST CURE | TIBB-AN-NABAWI &amp; MODERN SCIENCE</span>
+        </span>
+        <span class='page-number-badge'>
+          <span class='lang-bn'>পৃষ্ঠা ২১ / ২১</span>
+          <span class='lang-en'>Page 21 / 21</span>
+        </span>
+      </div>
+
+      <!-- 3. INTERACTIVE DAILY PREVENTIVE HEALTH SCORE CALCULATOR -->
+      <div class='infographic-section-box' style='margin-top: 0;'>
+        <h3 class='infographic-box-title'>
+          <span>📊</span>
+          <span class='lang-bn'>সুন্নাহ প্রিভেন্টিভ হেলথ স্কোর চেকলিস্ট (আপনার অভ্যাসে টিক দিন)</span>
+          <span class='lang-en'>Daily Sunnah Preventive Health Score Checklist (Check Your Daily Habits)</span>
+        </h3>
+
+        <div class='health-check-grid' id='sunnah-habit-checklist'>
+          <label class='health-check-item'>
+            <input checked='checked' onchange='calculateSunnahScore()' type='checkbox' value='12.5'/>
+            <span class='lang-bn'>১. পেটের ১/৩ অংশ খালি রেখে পরিমিত আহার</span>
+            <span class='lang-en'>1. Mindful eating while leaving 1/3rd of the stomach empty</span>
+          </label>
+
+          <label class='health-check-item'>
+            <input checked='checked' onchange='calculateSunnahScore()' type='checkbox' value='12.5'/>
+            <span class='lang-bn'>২. রিফাইন্ড চিনি ও ইন্ডাস্ট্রিয়াল সিড অয়েল বর্জন</span>
+            <span class='lang-en'>2. Complete avoidance of refined sugar &amp; industrial seed oils</span>
+          </label>
+
+          <label class='health-check-item'>
+            <input checked='checked' onchange='calculateSunnahScore()' type='checkbox' value='12.5'/>
+            <span class='lang-bn'>৩. এশার পর দ্রুত ঘুম ও ভোরে জাগরণ (Circadian Sync)</span>
+            <span class='lang-en'>3. Prompt sleep after Isha &amp; waking before dawn (Circadian Sync)</span>
+          </label>
+
+          <label class='health-check-item'>
+            <input checked='checked' onchange='calculateSunnahScore()' type='checkbox' value='12.5'/>
+            <span class='lang-bn'>৪. দৈনিক ৫ ওয়াক্ত সালাত, ওযু ও মিসওয়াক চর্চা</span>
+            <span class='lang-en'>4. Performing 5 daily Salah, Wudu nasal rinsing &amp; Miswak oral care</span>
+          </label>
+
+          <label class='health-check-item'>
+            <input onchange='calculateSunnahScore()' type='checkbox' value='12.5'/>
+            <span class='lang-bn'>৫. দৈনিক ৩০ মিনিট দ্রুত হাঁটা (Brisk Walking) বা ব্যায়াম</span>
+            <span class='lang-en'>5. 30 minutes of daily High-Pace Brisk Walking or physical exercise</span>
+          </label>
+
+          <label class='health-check-item'>
+            <input onchange='calculateSunnahScore()' type='checkbox' value='12.5'/>
+            <span class='lang-bn'>৬. প্রফেটিক সুপারফুড গ্রহণ (কালোজিরা/মধু/অলিভ অয়েল)</span>
+            <span class='lang-en'>6. Daily intake of Prophetic Superfoods (Black Seed / Honey / Olive Oil)</span>
+          </label>
+
+          <label class='health-check-item'>
+            <input onchange='calculateSunnahScore()' type='checkbox' value='12.5'/>
+            <span class='lang-bn'>৭. সাপ্তাহিক/মাসিক সুন্নাহ রোজা (Autophagy Fast)</span>
+            <span class='lang-en'>7. Observing weekly or monthly Sunnah fasts (Autophagy Fast)</span>
+          </label>
+
+          <label class='health-check-item'>
+            <input onchange='calculateSunnahScore()' type='checkbox' value='12.5'/>
+            <span class='lang-bn'>৮. সকাল-সন্ধ্যার জিকির, ক্রোধ নিয়ন্ত্রণ ও মানসিক প্রশান্তি</span>
+            <span class='lang-en'>8. Morning-evening Dhikr, anger management &amp; mental tranquility</span>
+          </label>
+        </div>
+
+        <div class='score-meter-box'>
+          <div class='score-percentage-text' id='health-score-val'>50%</div>
+          <div class='score-progress-track'>
+            <div class='score-progress-fill' id='health-score-bar' style='width: 50%;'/>
+          </div>
+          <div id='health-score-status' style='font-family: &quot;Noto Sans Bengali&quot;, &quot;Inter&quot;, sans-serif; font-size: 9.5pt; font-weight: 600; color: var(--text-muted);'>
+            <span class='lang-bn'>স্ট্যাটাস: মধ্যম প্রতিরোধ ক্ষমতা — পূর্ণাঙ্গ সুস্থতার জন্য বাকি সুন্নাহ অভ্যাসগুলো যুক্ত করুন।</span>
+            <span class='lang-en'>Status: Moderate Preventive Immunity — Integrate the remaining Sunnah habits for complete cellular protection.</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- FINAL MONOGRAPH COLOPHON QUOTE (MATCHES PDF PAGE 22) -->
+      <div class='monograph-colophon'>
+        <p class='lang-bn' style='font-size: 12pt; font-weight: 700; color: var(--badge-text); margin: 0 0 8px 0; text-align: center;'>
+          &quot;সুস্থতা মহান আল্লাহর এক অনুপম নিয়ামত এবং দেহের আমানত রক্ষার মাধ্যমেই প্রকৃত ইবাদত ও মানবকল্যাণ সম্ভব।&quot;
+        </p>
+        <p class='lang-en' style='font-size: 11.5pt; font-weight: 700; color: var(--badge-text); margin: 0 0 8px 0; text-align: center;'>
+          &quot;Good health is an unmatched blessing of Almighty Allah, and only by preserving the sacred trust of the body can true worship and service to humanity be fulfilled.&quot;
+        </p>
+        <p class='lang-bn' style='font-family: &quot;Noto Sans Bengali&quot;, sans-serif; font-size: 9.5pt; color: var(--text-muted); margin: 0; text-align: center;'>
+          <strong>সংকলন ও বিন্যাস:</strong> কুরআন, সহীহ সুন্নাহ (তিব্বে নববী) এবং আধুনিক প্রিভেন্টিভ ও লাইফস্টাইল মেডিসিন গবেষণার সমন্বিত মনোগ্রাফ।
+        </p>
+        <p class='lang-en' style='font-family: &quot;Inter&quot;, sans-serif; font-size: 9.5pt; color: var(--text-muted); margin: 0; text-align: center;'>
+          <strong>Compilation &amp; Synthesis:</strong> An Integrative Monograph of the Holy Qur&#39;an, Authentic Sunnah (Tibb-an-Nabawi), and Modern Preventive &amp; Lifestyle Medicine Research.
+        </p>
+      </div>
+
+      <div class='page-card-footer'>
+        <span>Tibb-an-Nabawi &amp; Modern Biomedical Science Monograph</span>
+        <span>
+          <span class='lang-bn'>- পৃষ্ঠা ২১ / ২১ -</span>
+          <span class='lang-en'>- Page 21 / 21 -</span>
+        </span>
+      </div>
+    </article>
+
+    
+    
+  </main>
+
+  <!-- ==================== INTERNATIONAL JOURNAL FOOTER ==================== -->
+  <footer class='journal-footer'>
+    <p><strong>&#169; 2026 International Journal of Integrative &amp; Preventive Medicine. All Rights Reserved.</strong></p>
+    <p>Published under Open Access terms, integrating Tibb-an-Nabawi and Modern Biomedical Research Standards.</p>
+    <p>This monograph has been prepared and published by —</p> 
+    <p><strong>MD. MOSTAFA KAMAL RAJU</strong></p>
+    <p style='margin-top: 10px;'>
+      <a href='https://doi.org/10.5281/zenodo.23438665' style='display: inline-block; background-color: rgba(197, 155, 39, 0.18); border: 1px solid var(--accent-gold); color: var(--accent-gold-light); padding: 4px 12px; border-radius: 20px; text-decoration: none; font-weight: 700; font-size: 8.5pt; margin: 2px;' target='_blank'>
+        🌐 DOI iD: 10.5281/zenodo.23438665 (Zenodo / CERN)
+      </a>
+      <br/>
+      <a href='https://orcid.org/0009-0005-8100-7558' style='display: inline-block; background-color: rgba(191, 212, 202, 0.15); border: 1px solid #bfd4ca; color: #bfd4ca; padding: 4px 12px; border-radius: 20px; text-decoration: none; font-weight: 700; font-size: 8.5pt; margin: 2px;' target='_blank'>
+        👤 ORCID iD: 0009-0005-8100-7558
+      </a>
+    </p>
+    <p>Department of English</p>
+    <p>Dinajpur Govt. College, Dinajpur</p>
+    <p class='lang-bn'><em>&quot;সুস্থতা মহান আল্লাহর এক অনুপম নিয়ামত এবং দেহের আমানত রক্ষাই প্রকৃত ইবাদত।&quot;</em></p>
+    <p class='lang-en'><em>&quot;Good health is a priceless blessing from Almighty Allah, and preserving the trust of the human body is true worship.&quot;</em></p>
+  </footer>
+
+  <!-- 3. External JavaScript Engine (app.js) -->
+  <script src="app.js" defer></script>
+</body>
+</html>

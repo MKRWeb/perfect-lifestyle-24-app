@@ -1,0 +1,20 @@
+{
+  "id": "/?app_id=perfect_lifestyle_24_monograph_v1",
+  "name": "প্রতিরোধই সর্বোত্তম চিকিৎসা | Tibb-an-Nabawi Health App",
+  "short_name": "Perfect Lifestyle 24",
+  "description": "A 21-Page Bilingual Research Monograph & Interactive Health App by Md. Mostafa Kamal Raju (DOI: 10.5281/zenodo.23438665).",
+  "start_url": "./index.html?utm_source=pl24_pwa_app",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0d2b20",
+  "theme_color": "#0d2b20",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
