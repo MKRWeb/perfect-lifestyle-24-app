@@ -1,0 +1,13 @@
+{
+  "name": "perfect-lifestyle-24-app",
+  "version": "1.0.0",
+  "description": "Prevention is the Best Cure - 21-Page Bilingual Health Monograph App by Md. Mostafa Kamal Raju",
+  "scripts": {
+    "prepare-www": "mkdir -p www && cp index.html style.css app.js manifest.json sw.js icon.svg www/"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/cli": "^6.0.0",
+    "@capacitor/core": "^6.0.0"
+  }
+}
