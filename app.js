@@ -12,7 +12,7 @@
   var LANG_KEY = 'pl24_monograph_lang';
   var THEME_KEY = 'pl24_monograph_theme';
 
-  // 0. Dynamic Inline Manifest Fallback (when opened without manifest.json server)
+  // 0. Dynamic Inline Manifest Fallback
   try {
     var existingManifest = document.querySelector('link[rel="manifest"]');
     if (!existingManifest || window.location.protocol === 'file:') {
@@ -46,7 +46,7 @@
     }
   } catch(e) {}
 
-  // Detect if running inside compiled Android APK / Capacitor / Standalone Mode
+  // Detect Standalone / APK Runtime
   var isRunningInsideApkOrStandalone = (
     window.location.protocol === 'file:' ||
     window.Capacitor !== undefined ||
@@ -54,12 +54,9 @@
     window.navigator.standalone === true
   );
 
-  // Hide the "Install App" button automatically when the user is already inside the installed APK
   if (isRunningInsideApkOrStandalone) {
     var installBtnEl = document.getElementById('btn-install-app');
-    if (installBtnEl) {
-      installBtnEl.style.display = 'none';
-    }
+    if (installBtnEl) { installBtnEl.style.display = 'none'; }
   }
 
   // ==================== 1. LANGUAGE & THEME CONTROLLER ====================
@@ -130,9 +127,8 @@
 
   var deferredPwaPrompt = null;
 
-  // PASTE YOUR GITHUB RELEASE DIRECT .APK DOWNLOAD URL HERE ONCE PUBLISHED:
-  var fallbackDirectApkUrl = 'https://github.com/MKRWeb/perfect-lifestyle-24-app/releases/download/v1.0.0/Perfect_Lifestyle_24.apk
-    ';
+  // DIRECT GITHUB RELEASE APK DOWNLOAD URL (Single continuous line without breaks)
+  var fallbackDirectApkUrl = 'https://github.com/MKRWeb/perfect-lifestyle-24-app/releases/download/v1.0.0/Perfect_Lifestyle_24.apk';
 
   window.addEventListener('beforeinstallprompt', function(e) {
     e.preventDefault();
@@ -155,13 +151,11 @@
   window.triggerAppInstallation = function() {
     var currentLang = htmlEl.getAttribute('data-lang') || 'bn';
 
-    // 1. Direct GitHub APK Download (if fallbackDirectApkUrl is set)
     if (fallbackDirectApkUrl && fallbackDirectApkUrl.indexOf('http') === 0) {
       window.location.href = fallbackDirectApkUrl;
       return;
     }
 
-    // 2. Native Browser PWA Install Prompt
     if (deferredPwaPrompt) {
       deferredPwaPrompt.prompt();
       deferredPwaPrompt.userChoice.then(function() {
@@ -170,11 +164,10 @@
       return;
     }
 
-    // 3. Fallback Manual Instructions
     if (currentLang === 'bn') {
-      alert('📲 অফলাইন অ্যাপ হিসেবে ইনস্টল করতে:\n\n১. আপনার ব্রাউজারের উপরের ডান কোণায় (⋮) থ্রি-ডট মেনুতে ট্যাপ করুন।\n২. "Install App" অথবা "Add to Home Screen" অপশনটিতে ক্লিক করুন।\n\nএটি আপনার ফোনে স্বতন্ত্র অফলাইন অ্যাপ হিসেবে সেভ হয়ে যাবে!');
+      alert('📲 অফলাইন অ্যাপ হিসেবে ইনস্টল করতে:\n\n১. আপনার ব্রাউজারের উপরের ডান কোণায় (⋮) থ্রি-ডট মেনুতে ট্যাপ করুন।\n২. "Install App" অথবা "Add to Home Screen" অপশনটিতে ক্লিক করুন।');
     } else {
-      alert('📲 To Install as an Offline App:\n\n1. Tap the browser menu (⋮ or Share icon).\n2. Select "Install App" or "Add to Home Screen".\n\nThe full 21-page monograph will be saved as a standalone offline app on your device!');
+      alert('📲 To Install as an Offline App:\n\n1. Tap the browser menu (⋮ or Share icon).\n2. Select "Install App" or "Add to Home Screen".');
     }
   };
 
@@ -234,7 +227,7 @@
     }
   });
 
-  // ==================== 4. INTERACTIVE BIO-CLOCK & HEALTH SCORE DASHBOARD ====================
+  // ==================== 4. INTERACTIVE BIO-CLOCK & HEALTH SCORE ====================
   window.switchBioClock = function(phaseIndex) {
     var tabs = document.querySelectorAll('.bio-tab-btn');
     var panels = document.querySelectorAll('.bio-clock-panel');
@@ -265,16 +258,15 @@
 
     if (statusEl) {
       if (score >= 85) {
-        statusEl.innerHTML = '<span class="lang-bn" style="color:#1e6b4e;">স্ট্যাটাস: আলহামদুলিল্লাহ! সর্বোচ্চ স্তরের মেটাবলিক ও প্রিভেন্টিভ সুরক্ষা (Optimal Prophetic Shield)।</span><span class="lang-en" style="color:#1e6b4e;">Status: Alhamdulillah! Optimal Metabolic &amp; Preventive Shield Achieved.</span>';
+        statusEl.innerHTML = '<span class="lang-bn" style="color:#1e6b4e;">স্ট্যাটাস: আলহামদুলিল্লাহ! সর্বোচ্চ স্তরের মেটাবলিক ও প্রিভেন্টিভ সুরক্ষা।</span><span class="lang-en" style="color:#1e6b4e;">Status: Alhamdulillah! Optimal Metabolic &amp; Preventive Shield Achieved.</span>';
       } else if (score >= 50) {
-        statusEl.innerHTML = '<span class="lang-bn">স্ট্যাটাস: মধ্যম প্রতিরোধ ক্ষমতা — পূর্ণাঙ্গ সুস্থতার জন্য বাকি সুন্নাহ অভ্যাসগুলো যুক্ত করুন।</span><span class="lang-en">Status: Moderate Preventive Resilience — Incorporate the remaining Sunnah habits for optimal longevity.</span>';
+        statusEl.innerHTML = '<span class="lang-bn">স্ট্যাটাস: মধ্যম প্রতিরোধ ক্ষমতা — পূর্ণাঙ্গ সুস্থতার জন্য বাকি সুন্নাহ অভ্যাসগুলো যুক্ত করুন।</span><span class="lang-en">Status: Moderate Preventive Resilience — Incorporate the remaining Sunnah habits.</span>';
       } else {
-        statusEl.innerHTML = '<span class="lang-bn" style="color:var(--danger-red);">স্ট্যাটাস: মেটাবলিক ঝুঁকিপূর্ণ — আজ থেকেই সুন্নাহ ডায়েট ও ঘুমের রুটিন শুরু করুন।</span><span class="lang-en" style="color:var(--danger-red);">Status: Elevated Metabolic Risk — Begin implementing the Prophetic diet and circadian sleep protocol today.</span>';
+        statusEl.innerHTML = '<span class="lang-bn" style="color:var(--danger-red);">স্ট্যাটাস: মেটাবলিক ঝুঁকিপূর্ণ — আজ থেকেই সুন্নাহ ডায়েট ও ঘুমের রুটিন শুরু করুন।</span><span class="lang-en" style="color:var(--danger-red);">Status: Elevated Metabolic Risk — Begin implementing the Prophetic diet today.</span>';
       }
     }
   };
 
-  // Sync UI buttons with saved state on load
   try {
     var savedLang = localStorage.getItem(LANG_KEY) || 'bn';
     var savedTheme = localStorage.getItem(THEME_KEY) || 'day';
