@@ -1,6 +1,5 @@
 {
   "appId": "com.mostafakamalraju.perfectlifestyle24",
   "appName": "Perfect Lifestyle 24",
-  "webDir": "www",
-  "bundledWebRuntime": false
+  "webDir": "www"
 }
