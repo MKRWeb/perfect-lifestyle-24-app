@@ -131,7 +131,8 @@
   var deferredPwaPrompt = null;
 
   // PASTE YOUR GITHUB RELEASE DIRECT .APK DOWNLOAD URL HERE ONCE PUBLISHED:
-  var fallbackDirectApkUrl = '';
+  var fallbackDirectApkUrl = 'https://github.com/MKRWeb/perfect-lifestyle-24-app/releases/download/v1.0.0/Perfect_Lifestyle_24.apk
+    ';
 
   window.addEventListener('beforeinstallprompt', function(e) {
     e.preventDefault();
